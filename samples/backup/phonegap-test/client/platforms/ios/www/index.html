@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/2.0.3/themes/smoothness/jquery-ui.css" />
+    <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jquerymobile/1.4.2/jquery.mobile.min.css" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <title>Hello World</title>
+</head>
+
+<body>
+    <div class="app">
+        <div data-role="page" class="jqm-demos" data-quicklinks="true">
+            <div data-role="header" class="jqm-header">
+                <p>
+                    <span class="jqm-version"></span>Demos</p>
+                <a href="#" class="jqm-navmenu-link ui-btn ui-btn-icon-notext ui-corner-all ui-icon-bars ui-nodisc-icon ui-alt-icon ui-btn-left">Menu</a>
+                <a href="#" class="jqm-search-link ui-btn ui-btn-icon-notext ui-corner-all ui-icon-search ui-nodisc-icon ui-alt-icon ui-btn-right">Search</a>
+            </div>
+            <!-- /header -->
+
+            <div role="main" class="ui-content jqm-content">
+                Test Get Picture From:
+                <a href="#" onclick="getPictureFromCamera();">Camera</a> |
+                <a href="#" onclick="getPictureFromPhotoLibrary();">PhotoLibrary</a> |
+                <a href="#" onclick="getPictureFromSavedPhotoAlbum();">SavedPhotoAlbum</a>]
+                <img id="myImage" src="">
+                <h1 class="topcoat-navigation-bar__title">Picture Feed</h1>
+                <a class="topcoat-icon-button--quiet camera-btn" href="#" onclick="app2.takePicture("");">Btn</a>
+                <div id="deviceready" class="blink">
+                    <p class="event listening">Connecting to Device</p>
+                    <p class="event received">Device is Ready</p>
+                </div>
+            </div>
+
+            <div class="scroller"></div>
+
+
+            <div data-role="footer" data-position="fixed" data-tap-toggle="false" class="jqm-footer">
+                <p>jQuery Mobile Demos version
+                    <span class="jqm-version"></span>
+                </p>
+                <p>Copyright 2014 The jQuery Foundation</p>
+            </div>
+            <!-- /footer -->
+
+        </div>
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquerymobile/1.4.2/jquery.mobile.min.js"></script>
+        <script type="text/javascript">
+        app.initialize();
+        </script>
+</body>
+
+</html>

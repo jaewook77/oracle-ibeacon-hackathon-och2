@@ -1,0 +1,274 @@
+2014-06-30 01:45:33.763 HelloWorld[31468:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-30 01:45:33.776 HelloWorld[31468:70b] Unlimited access to network resources
+2014-06-30 01:45:33.785 HelloWorld[31468:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-06-30 01:45:33.810 HelloWorld[31468:70b] [CDVTimer][file] 2.165973ms
+2014-06-30 01:45:33.811 HelloWorld[31468:70b] [CDVTimer][TotalPluginStartup] 2.750039ms
+2014-06-30 01:45:33.993 HelloWorld[31468:70b] Resetting plugins due to page load.
+2014-06-30 01:45:34.036 HelloWorld[31468:70b] Finished load of: file:///Users/jaewookkim/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/0D1004A7-B98D-4F97-8756-CCFEB15497B2/HelloWorld.app/www/index.html
+2014-06-30 01:46:53.363 HelloWorld[31744:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-30 01:46:53.381 HelloWorld[31744:70b] Unlimited access to network resources
+2014-06-30 01:46:53.385 HelloWorld[31744:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-06-30 01:46:53.408 HelloWorld[31744:70b] [CDVTimer][file] 1.998007ms
+2014-06-30 01:46:53.408 HelloWorld[31744:70b] [CDVTimer][TotalPluginStartup] 2.669036ms
+2014-06-30 01:46:53.601 HelloWorld[31744:70b] Resetting plugins due to page load.
+2014-06-30 01:46:53.643 HelloWorld[31744:70b] Finished load of: file:///Users/jaewookkim/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/0D1004A7-B98D-4F97-8756-CCFEB15497B2/HelloWorld.app/www/index.html
+Terminating in response to SpringBoard's termination.
+2014-06-30 01:53:46.355 HelloWorld[32169:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-30 01:53:46.365 HelloWorld[32169:70b] Unlimited access to network resources
+2014-06-30 01:53:46.369 HelloWorld[32169:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-06-30 01:53:46.404 HelloWorld[32169:70b] [CDVTimer][file] 2.209961ms
+2014-06-30 01:53:46.405 HelloWorld[32169:70b] [CDVTimer][TotalPluginStartup] 3.382027ms
+2014-06-30 01:53:46.616 HelloWorld[32169:70b] Resetting plugins due to page load.
+2014-06-30 01:53:46.659 HelloWorld[32169:70b] Finished load of: file:///Users/jaewookkim/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/0D1004A7-B98D-4F97-8756-CCFEB15497B2/HelloWorld.app/www/index.html
+2014-06-30 01:54:56.567 HelloWorld[32463:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-30 01:54:56.665 HelloWorld[32463:70b] Unlimited access to network resources
+2014-06-30 01:54:56.669 HelloWorld[32463:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-06-30 01:54:56.696 HelloWorld[32463:70b] [CDVTimer][file] 2.014995ms
+2014-06-30 01:54:56.697 HelloWorld[32463:70b] [CDVTimer][TotalPluginStartup] 2.708972ms
+2014-06-30 01:54:56.838 HelloWorld[32463:70b] Resetting plugins due to page load.
+2014-06-30 01:54:56.881 HelloWorld[32463:70b] Finished load of: file:///Users/jaewookkim/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/0D1004A7-B98D-4F97-8756-CCFEB15497B2/HelloWorld.app/www/index.html
+2014-06-30 01:57:24.008 HelloWorld[32743:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-30 01:57:24.018 HelloWorld[32743:70b] Unlimited access to network resources
+2014-06-30 01:57:24.026 HelloWorld[32743:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-06-30 01:57:24.169 HelloWorld[32743:70b] [CDVTimer][file] 2.081037ms
+2014-06-30 01:57:24.211 HelloWorld[32743:70b] [CDVTimer][TotalPluginStartup] 44.189990ms
+2014-06-30 01:57:24.471 HelloWorld[32743:70b] Resetting plugins due to page load.
+2014-06-30 01:57:24.513 HelloWorld[32743:70b] Finished load of: file:///Users/jaewookkim/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/0D1004A7-B98D-4F97-8756-CCFEB15497B2/HelloWorld.app/www/index.html
+2014-06-30 01:58:19.523 HelloWorld[32946:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-30 01:58:19.533 HelloWorld[32946:70b] Unlimited access to network resources
+2014-06-30 01:58:19.537 HelloWorld[32946:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-06-30 01:58:19.561 HelloWorld[32946:70b] [CDVTimer][file] 2.043009ms
+2014-06-30 01:58:19.562 HelloWorld[32946:70b] [CDVTimer][TotalPluginStartup] 2.656043ms
+2014-06-30 01:58:19.724 HelloWorld[32946:70b] Resetting plugins due to page load.
+2014-06-30 01:58:19.771 HelloWorld[32946:70b] Finished load of: file:///Users/jaewookkim/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/0D1004A7-B98D-4F97-8756-CCFEB15497B2/HelloWorld.app/www/index.html
+Terminating in response to SpringBoard's termination.
+2014-06-30 02:01:13.827 HelloWorld[33197:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-30 02:01:13.837 HelloWorld[33197:70b] Unlimited access to network resources
+2014-06-30 02:01:13.841 HelloWorld[33197:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-06-30 02:01:13.864 HelloWorld[33197:70b] [CDVTimer][file] 2.063990ms
+2014-06-30 02:01:13.865 HelloWorld[33197:70b] [CDVTimer][TotalPluginStartup] 2.685964ms
+2014-06-30 02:01:14.106 HelloWorld[33197:70b] Resetting plugins due to page load.
+2014-06-30 02:01:14.189 HelloWorld[33197:70b] Finished load of: file:///Users/jaewookkim/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/0D1004A7-B98D-4F97-8756-CCFEB15497B2/HelloWorld.app/www/index.html
+2014-06-30 02:02:20.003 HelloWorld[33391:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-30 02:02:20.013 HelloWorld[33391:70b] Unlimited access to network resources
+2014-06-30 02:02:20.017 HelloWorld[33391:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-06-30 02:02:20.043 HelloWorld[33391:70b] [CDVTimer][file] 2.057016ms
+2014-06-30 02:02:20.044 HelloWorld[33391:70b] [CDVTimer][TotalPluginStartup] 3.009975ms
+2014-06-30 02:02:20.411 HelloWorld[33391:70b] Resetting plugins due to page load.
+2014-06-30 02:02:20.457 HelloWorld[33391:70b] Finished load of: file:///Users/jaewookkim/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/0D1004A7-B98D-4F97-8756-CCFEB15497B2/HelloWorld.app/www/index.html
+2014-06-30 02:02:47.608 HelloWorld[33659:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-30 02:02:47.618 HelloWorld[33659:70b] Unlimited access to network resources
+2014-06-30 02:02:47.621 HelloWorld[33659:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-06-30 02:02:47.646 HelloWorld[33659:70b] [CDVTimer][file] 2.049983ms
+2014-06-30 02:02:47.647 HelloWorld[33659:70b] [CDVTimer][TotalPluginStartup] 2.731979ms
+2014-06-30 02:02:47.841 HelloWorld[33659:70b] Resetting plugins due to page load.
+2014-06-30 02:02:47.884 HelloWorld[33659:70b] Finished load of: file:///Users/jaewookkim/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/0D1004A7-B98D-4F97-8756-CCFEB15497B2/HelloWorld.app/www/index.html
+2014-06-30 02:04:46.377 HelloWorld[33894:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-30 02:04:46.386 HelloWorld[33894:70b] Unlimited access to network resources
+2014-06-30 02:04:46.391 HelloWorld[33894:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-06-30 02:04:46.498 HelloWorld[33894:70b] [CDVTimer][file] 6.446004ms
+2014-06-30 02:04:46.534 HelloWorld[33894:70b] [CDVTimer][TotalPluginStartup] 41.793048ms
+2014-06-30 02:04:46.711 HelloWorld[33894:70b] Resetting plugins due to page load.
+2014-06-30 02:04:46.759 HelloWorld[33894:70b] Finished load of: file:///Users/jaewookkim/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/0D1004A7-B98D-4F97-8756-CCFEB15497B2/HelloWorld.app/www/index.html
+2014-06-30 02:05:30.899 HelloWorld[34081:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-30 02:05:30.909 HelloWorld[34081:70b] Unlimited access to network resources
+2014-06-30 02:05:30.914 HelloWorld[34081:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-06-30 02:05:31.004 HelloWorld[34081:70b] [CDVTimer][file] 2.106011ms
+2014-06-30 02:05:31.015 HelloWorld[34081:70b] [CDVTimer][TotalPluginStartup] 12.354016ms
+2014-06-30 02:05:31.173 HelloWorld[34081:70b] Resetting plugins due to page load.
+2014-06-30 02:05:31.380 HelloWorld[34081:70b] Finished load of: file:///Users/jaewookkim/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/0D1004A7-B98D-4F97-8756-CCFEB15497B2/HelloWorld.app/www/index.html
+2014-06-30 02:06:27.287 HelloWorld[34261:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-30 02:06:27.297 HelloWorld[34261:70b] Unlimited access to network resources
+2014-06-30 02:06:27.300 HelloWorld[34261:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-06-30 02:06:27.408 HelloWorld[34261:70b] [CDVTimer][file] 2.056003ms
+2014-06-30 02:06:27.409 HelloWorld[34261:70b] [CDVTimer][TotalPluginStartup] 2.684951ms
+2014-06-30 02:06:27.567 HelloWorld[34261:70b] Resetting plugins due to page load.
+2014-06-30 02:06:27.701 HelloWorld[34261:70b] Finished load of: file:///Users/jaewookkim/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/0D1004A7-B98D-4F97-8756-CCFEB15497B2/HelloWorld.app/www/index.html
+2014-06-30 02:07:51.328 HelloWorld[34470:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-30 02:07:51.343 HelloWorld[34470:70b] Unlimited access to network resources
+2014-06-30 02:07:51.351 HelloWorld[34470:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-06-30 02:07:51.468 HelloWorld[34470:70b] [CDVTimer][file] 2.507031ms
+2014-06-30 02:07:51.504 HelloWorld[34470:70b] [CDVTimer][TotalPluginStartup] 38.065016ms
+2014-06-30 02:07:51.716 HelloWorld[34470:70b] Resetting plugins due to page load.
+2014-06-30 02:07:51.862 HelloWorld[34470:70b] Finished load of: file:///Users/jaewookkim/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/0D1004A7-B98D-4F97-8756-CCFEB15497B2/HelloWorld.app/www/index.html
+2014-06-30 02:07:52.007 HelloWorld[34470:70b] Received Event: deviceready
+2014-06-30 02:07:53.606 HelloWorld[34470:70b] THREAD WARNING: ['Camera'] took '76.328125' ms. Plugin should use a background thread.
+Terminating in response to SpringBoard's termination.
+2014-06-30 02:08:21.824 HelloWorld[34632:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-30 02:08:21.835 HelloWorld[34632:70b] Unlimited access to network resources
+2014-06-30 02:08:21.838 HelloWorld[34632:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-06-30 02:08:21.862 HelloWorld[34632:70b] [CDVTimer][file] 2.094030ms
+2014-06-30 02:08:21.862 HelloWorld[34632:70b] [CDVTimer][TotalPluginStartup] 2.686977ms
+2014-06-30 02:08:22.070 HelloWorld[34632:70b] Resetting plugins due to page load.
+2014-06-30 02:08:22.155 HelloWorld[34632:70b] Finished load of: file:///Users/jaewookkim/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/0D1004A7-B98D-4F97-8756-CCFEB15497B2/HelloWorld.app/www/index.html
+2014-06-30 02:09:37.097 HelloWorld[34824:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-30 02:09:37.111 HelloWorld[34824:70b] Unlimited access to network resources
+2014-06-30 02:09:37.116 HelloWorld[34824:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-06-30 02:09:37.143 HelloWorld[34824:70b] [CDVTimer][file] 2.092957ms
+2014-06-30 02:09:37.144 HelloWorld[34824:70b] [CDVTimer][TotalPluginStartup] 2.721012ms
+2014-06-30 02:09:37.366 HelloWorld[34824:70b] Resetting plugins due to page load.
+2014-06-30 02:09:37.488 HelloWorld[34824:70b] Finished load of: file:///Users/jaewookkim/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/0D1004A7-B98D-4F97-8756-CCFEB15497B2/HelloWorld.app/www/index.html
+2014-06-30 07:14:23.015 HelloWorld[37116:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-30 07:14:23.096 HelloWorld[37116:70b] Unlimited access to network resources
+2014-06-30 07:14:23.170 HelloWorld[37116:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-06-30 07:14:23.452 HelloWorld[37116:70b] [CDVTimer][file] 27.358949ms
+2014-06-30 07:14:23.453 HelloWorld[37116:70b] [CDVTimer][TotalPluginStartup] 28.904021ms
+2014-06-30 07:14:23.589 HelloWorld[37116:70b] Resetting plugins due to page load.
+2014-06-30 07:14:23.779 HelloWorld[37116:70b] Finished load of: file:///Users/jaewookkim/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/0D1004A7-B98D-4F97-8756-CCFEB15497B2/HelloWorld.app/www/index.html
+2014-06-30 07:14:24.229 HelloWorld[37116:70b] Received Event: deviceready
+2014-06-30 07:14:25.937 HelloWorld[37116:70b] THREAD WARNING: ['Camera'] took '112.196045' ms. Plugin should use a background thread.
+2014-06-30 07:16:21.366 HelloWorld[37353:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-30 07:16:21.376 HelloWorld[37353:70b] Unlimited access to network resources
+2014-06-30 07:16:21.379 HelloWorld[37353:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-06-30 07:16:21.406 HelloWorld[37353:70b] [CDVTimer][file] 1.995027ms
+2014-06-30 07:16:21.412 HelloWorld[37353:70b] [CDVTimer][TotalPluginStartup] 7.438004ms
+2014-06-30 07:16:21.626 HelloWorld[37353:70b] Resetting plugins due to page load.
+2014-06-30 07:16:21.731 HelloWorld[37353:70b] Finished load of: file:///Users/jaewookkim/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/0D1004A7-B98D-4F97-8756-CCFEB15497B2/HelloWorld.app/www/index.html
+2014-06-30 07:16:21.855 HelloWorld[37353:70b] Received Event: deviceready
+Terminating in response to SpringBoard's termination.
+2014-06-30 07:17:07.059 HelloWorld[37528:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-30 07:17:07.181 HelloWorld[37528:70b] Unlimited access to network resources
+2014-06-30 07:17:07.191 HelloWorld[37528:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-06-30 07:17:07.321 HelloWorld[37528:70b] [CDVTimer][file] 2.393007ms
+2014-06-30 07:17:07.322 HelloWorld[37528:70b] [CDVTimer][TotalPluginStartup] 3.455043ms
+2014-06-30 07:17:07.519 HelloWorld[37528:70b] Resetting plugins due to page load.
+2014-06-30 07:17:07.690 HelloWorld[37528:70b] Finished load of: file:///Users/jaewookkim/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/0D1004A7-B98D-4F97-8756-CCFEB15497B2/HelloWorld.app/www/index.html
+2014-06-30 07:17:07.906 HelloWorld[37528:70b] Received Event: deviceready
+2014-06-30 10:53:44.306 HelloWorld[38738:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-30 10:53:44.317 HelloWorld[38738:70b] Unlimited access to network resources
+2014-06-30 10:53:44.321 HelloWorld[38738:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-06-30 10:53:44.367 HelloWorld[38738:70b] [CDVTimer][file] 2.610981ms
+2014-06-30 10:53:44.368 HelloWorld[38738:70b] [CDVTimer][TotalPluginStartup] 3.233016ms
+2014-06-30 10:53:44.732 HelloWorld[38738:70b] Resetting plugins due to page load.
+2014-06-30 10:53:44.903 HelloWorld[38738:70b] Finished load of: file:///Users/jaewookkim/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/0D1004A7-B98D-4F97-8756-CCFEB15497B2/HelloWorld.app/www/index.html
+2014-06-30 10:53:45.039 HelloWorld[38738:70b] Received Event: deviceready
+2014-06-30 10:54:04.054 HelloWorld[38738:70b] THREAD WARNING: ['Camera'] took '115.083008' ms. Plugin should use a background thread.
+2014-06-30 10:55:23.939 HelloWorld[38943:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-30 10:55:23.950 HelloWorld[38943:70b] Unlimited access to network resources
+2014-06-30 10:55:23.953 HelloWorld[38943:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-06-30 10:55:24.017 HelloWorld[38943:70b] [CDVTimer][file] 1.976013ms
+2014-06-30 10:55:24.043 HelloWorld[38943:70b] [CDVTimer][TotalPluginStartup] 26.691973ms
+2014-06-30 10:55:24.246 HelloWorld[38943:70b] Resetting plugins due to page load.
+2014-06-30 10:55:24.376 HelloWorld[38943:70b] Finished load of: file:///Users/jaewookkim/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/0D1004A7-B98D-4F97-8756-CCFEB15497B2/HelloWorld.app/www/index.html
+2014-06-30 10:55:24.619 HelloWorld[38943:70b] Received Event: deviceready
+Terminating in response to SpringBoard's termination.
