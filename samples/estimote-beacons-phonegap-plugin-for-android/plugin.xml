@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="com.oracle.mx.ux.cordova.estimotebeacons"
+        version="0.0.3">
+
+    <engines>
+        <engine name="cordova" version=">=3.0.0"/>
+    </engines>
+
+    <name>Estimote iBeacons Cordova/PhoneGap Plugin for Android</name>
+    <description>This is a Cordova/PhoneGap 3.x plugin for Android which allows interaction with Estimote iBeacons. This plugin is just a wrapper around Estimote Android SDK.</description>
+    <author>Oracle MDC UX Team</author>
+    <keywords>ibeacon,beacon,android,cordova,phonegap</keywords>
+    <license>MIT</license>
+    <repo>https://github.com/mdc-ux-team/estimote-beacons-phonegap-plugin-for-android.git</repo>
+
+    <js-module src="www/EstimoteBeacons.js" name="EstimoteBeacons">
+        <clobbers target="EstimoteBeacons"/>
+    </js-module>
+
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="EstimoteBeacons">
+                <param name="android-package" value="com.oracle.mx.ux.cordova.estimotebeacons.EstimoteBeacons"/>
+            </feature>
+        </config-file>
+
+        <source-file src="src/android/EstimoteBeacons.java" target-dir="src/com/oracle/mx/ux/cordova/estimotebeacons"/>
+        <source-file src="src/android/estimote-sdk-preview.jar" target-dir="libs" framework="true"/>
+
+        <config-file target="AndroidManifest.xml" parent="/manifest">
+            <uses-permission android:name="android.permission.BLUETOOTH"/>
+            <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+        </config-file>
+
+        <config-file target="AndroidManifest.xml" parent="/manifest/application">
+            <service android:name="com.estimote.sdk.service.BeaconService"
+                     android:exported="false">
+            </service>
+        </config-file>
+    </platform>
+</plugin>
