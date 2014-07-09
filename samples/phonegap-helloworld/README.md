@@ -4,6 +4,7 @@
 
 ## Tutorial
 http://docs.phonegap.com/en/edge/guide_cli_index.md.html#The%20Command-Line%20Interface
+https://github.com/jaewook77/jqm-cordova-template-project
 
 ## Usage
 $ sudo npm install -g cordova
@@ -20,6 +21,30 @@ $ cordova emulate ios
 $ npm install -g ios-sim (if ios simulator is not already installed)
 
 ## Install Plugins
+# recommended minimal plugins
+cordova plugin add org.apache.cordova.console
+cordova plugin add org.apache.cordova.device
+cordova plugin add org.apache.cordova.dialogs
+cordova plugin add org.apache.cordova.splashscreen
+cordova plugin add org.apache.cordova.statusbar
+
+# Estimote Beacons Plugin for Android:
+$ cordova plugin add https://github.com/mdc-ux-team/estimote-beacons-phonegap-plugin-for-android.git
+
+## Run application
+# In a browser
+cordova serve
+# Then, navigate to http://localhost:8000/ios/www/ (replace `ios` with any platform you installed)
+
+# In an emulator (replace `ios` with an installed platform)
+cordova emulate ios
+
+# On the device (replace `ios` with an installed platform)
+cordova build ios
+cordova run ios
+
+
+## Other Plugins
 Basic device information (Device API):
 $ cordova plugin add org.apache.cordova.device
 
