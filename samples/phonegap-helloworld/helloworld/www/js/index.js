@@ -34,6 +34,13 @@ function startRangingBeaconsInRegionCallback() {
     }, 3000);
 }
 
+// Pagecreate will fire for each of the pages in this demo
+// but we only need to bind once so we use "one()"
+$( document ).one( "pagecreate", "#main", function() {
+});
+$( document ).on( "pagecontainershow", "#main", function() {
+});
+
 /*
  * Google Maps documentation: http://code.google.com/apis/maps/documentation/javascript/basics.html
  * Geolocation documentation: http://dev.w3.org/geo/api/spec-source.html
@@ -67,6 +74,15 @@ $( document ).on( "pagecreate", "#map-page", function() {
             title: "Greetings!"
         });
     }
+});
+
+$( document ).on( "pagecreate", "#pagetwo", function() {
+});
+
+$( document ).on( "pagecreate", "#pagethree", function() {
+});
+
+$( document ).on( "pagecreate", "#pagefour", function() {
 });
 
 var app = {

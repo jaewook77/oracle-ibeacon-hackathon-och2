@@ -1,0 +1,25 @@
+dependencies: \
+  /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-test/client/platforms/ios/HelloWorld/Plugins/org.apache.cordova.file-transfer/CDVFileTransfer.m \
+  /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-test/client/platforms/ios/build/emulator/include/Cordova/CDV.h \
+  /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-test/client/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h \
+  /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-test/client/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h \
+  /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-test/client/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h \
+  /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-test/client/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h \
+  /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-test/client/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h \
+  /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-test/client/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h \
+  /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-test/client/platforms/ios/build/emulator/include/Cordova/CDVViewController.h \
+  /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-test/client/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h \
+  /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-test/client/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h \
+  /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-test/client/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h \
+  /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-test/client/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h \
+  /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-test/client/platforms/ios/build/emulator/include/Cordova/CDVDebug.h \
+  /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-test/client/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h \
+  /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-test/client/platforms/ios/build/emulator/include/Cordova/CDVTimer.h \
+  /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-test/client/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h \
+  /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-test/client/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h \
+  /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-test/client/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h \
+  /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-test/client/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h \
+  /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-test/client/platforms/ios/build/emulator/include/Cordova/CDVJSON.h \
+  /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-test/client/platforms/ios/HelloWorld/Plugins/org.apache.cordova.file-transfer/CDVFileTransfer.h \
+  /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-test/client/platforms/ios/HelloWorld/Plugins/org.apache.cordova.file/CDVFile.h \
+  /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-test/client/platforms/ios/HelloWorld/Plugins/org.apache.cordova.file/CDVLocalFilesystem.h

@@ -1,0 +1,1182 @@
+THello World
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello\ World.app/Info.plist /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello\ World/Hello\ World-Info.plist
+cPhaseScriptExecution Copy\ www\ directory /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/Script-304B58A110DAC018002A0835.sh
+cCpResource Hello\ World/Resources/icons/icon-76.png build/emulator/Hello\ World.app/icon-76.png
+cCpResource Hello\ World/Resources/icons/icon-40@2x.png build/emulator/Hello\ World.app/icon-40@2x.png
+cCpResource Hello\ World/Resources/icons/icon-72.png build/emulator/Hello\ World.app/icon-72.png
+cCpResource Hello\ World/Resources/icons/icon.png build/emulator/Hello\ World.app/icon.png
+cCpResource Hello\ World/Resources/icons/icon@2x.png build/emulator/Hello\ World.app/icon@2x.png
+cCopyStringsFile /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello\ World.app/en.lproj/Localizable.strings Hello\ World/Resources/en.lproj/Localizable.strings
+cCompileXIB /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello\ World/Classes/MainViewController.xib
+cCpResource Hello\ World/Resources/icons/icon-50.png build/emulator/Hello\ World.app/icon-50.png
+cCpResource Hello\ World/Resources/icons/icon-60@2x.png build/emulator/Hello\ World.app/icon-60@2x.png
+cCopyStringsFile /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello\ World.app/de.lproj/Localizable.strings Hello\ World/Resources/de.lproj/Localizable.strings
+cCpResource Hello\ World/Resources/icons/icon-small.png build/emulator/Hello\ World.app/icon-small.png
+cCpResource Hello\ World/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/Hello\ World.app/Default-Landscape@2x~ipad.png
+cCpResource Hello\ World/Resources/splash/Default-Landscape~ipad.png build/emulator/Hello\ World.app/Default-Landscape~ipad.png
+cCpResource Hello\ World/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/Hello\ World.app/Default-Portrait@2x~ipad.png
+cCpResource Hello\ World/Resources/icons/icon-small@2x.png build/emulator/Hello\ World.app/icon-small@2x.png
+cCpResource Hello\ World/Resources/splash/Default-Portrait~ipad.png build/emulator/Hello\ World.app/Default-Portrait~ipad.png
+cCpResource Hello\ World/Resources/icons/icon-40.png build/emulator/Hello\ World.app/icon-40.png
+cCpResource Hello\ World/Resources/splash/Default@2x~iphone.png build/emulator/Hello\ World.app/Default@2x~iphone.png
+cCpResource Hello\ World/Resources/icons/icon-60.png build/emulator/Hello\ World.app/icon-60.png
+cCpResource Hello\ World/Resources/splash/Default~iphone.png build/emulator/Hello\ World.app/Default~iphone.png
+cCpResource Hello\ World/Resources/splash/Default-568h@2x~iphone.png build/emulator/Hello\ World.app/Default-568h@2x~iphone.png
+cCpResource Hello\ World/Resources/icons/icon-50@2x.png build/emulator/Hello\ World.app/icon-50@2x.png
+cCpResource Hello\ World/Resources/icons/icon-76@2x.png build/emulator/Hello\ World.app/icon-76@2x.png
+cCpResource Hello\ World/Resources/icons/icon-72@2x.png build/emulator/Hello\ World.app/icon-72@2x.png
+cProcessPCH /var/folders/m6/1ct_mxc101q25hf1thh0xmqm0000gq/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Hello\ World-Prefix-bcuxtembfeehwzdnqdjqzufivske/Hello\ World-Prefix.pch.pch Hello\ World/Hello\ World-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/Objects-normal/i386/main.o /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello\ World/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/Objects-normal/i386/AppDelegate.o /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello\ World/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/Objects-normal/i386/MainViewController.o /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello\ World/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello\ World.app/Hello\ World normal i386
+cGenerateDSYMFile /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello\ World.app.dSYM /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello\ World.app/Hello\ World
+cTouch /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello\ World.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c0000000053474E690000000000000198
+t1397182057
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c00000000532DD17500000000000003B4
+t1395511669
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000532DD189000000000000019E
+t1395511689
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c00000000532DD18E0000000000484210
+t1395511694
+s4735504
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+c00000000532DD18D0000000000098030
+t1395511693
+s622640
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c00000000532DD18C0000000000059340
+t1395511692
+s365376
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c00000000532DD19000000000005B82F0
+t1395511696
+s5997296
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000053474E030000000000446820
+t1397181955
+s4483104
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c00000000532DD19000000000000F1A80
+t1395511696
+s989824
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c00000000532DD190000000000013B8C0
+t1395511696
+s1292480
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000532DD195000000000088D8C0
+t1395511701
+s8968384
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c00000000532DD19800000000001BE790
+t1395511704
+s1828752
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000532DD1A20000000001F1DE10
+t1395511714
+s32628240
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+c00000000532DD1C400000000002BC360
+t1395511748
+s2868064
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+c00000000532DD1DC0000000000002338
+t1395511772
+s9016
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+c00000000532DD1DF000000000008D370
+t1395511775
+s578416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+c00000000532DD1DE0000000000392E20
+t1395511774
+s3747360
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+c00000000537D54A900000000000141F0
+t1400722601
+s82416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+c00000000532DD1DF0000000000014A80
+t1395511775
+s84608
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+c00000000532DD1DF0000000000033BA0
+t1395511775
+s211872
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+c00000000532DD1DF000000000001CFB0
+t1395511775
+s118704
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+c00000000532DD1DF000000000001B2B0
+t1395511775
+s111280
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+c00000000532DD1E000000000000C9570
+t1395511776
+s824688
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+c00000000532DD1DF0000000000063280
+t1395511775
+s406144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+c00000000532DD1DF0000000000008880
+t1395511775
+s34944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+c00000000532DD1DF0000000000015080
+t1395511775
+s86144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+c00000000532DD1E000000000000230F0
+t1395511776
+s143600
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+c00000000532DD1E0000000000000E380
+t1395511776
+s58240
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+c00000000532DD1E00000000000089380
+t1395511776
+s562048
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+c00000000532DD1E00000000000017320
+t1395511776
+s95008
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+c00000000532DD1E00000000000039CD0
+t1395511776
+s236752
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+c00000000532DD1E0000000000000B0B0
+t1395511776
+s45232
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+c00000000532DD1E00000000000167E80
+t1395511776
+s1474176
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+c00000000532DD1E000000000000106A0
+t1395511776
+s67232
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+c00000000532DD1E0000000000001CE40
+t1395511776
+s118336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+c00000000532DD1E000000000000740C0
+t1395511776
+s475328
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+c00000000532DD1E0000000000006CA60
+t1395511776
+s445024
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+c00000000532DD1E0000000000001BAD0
+t1395511776
+s113360
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+c00000000532DD1E00000000000084A20
+t1395511776
+s543264
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+c0000000053474E03000000000000514C
+t1397181955
+s20812
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello World/Classes/AppDelegate.h
+c0000000053B0400D00000000000005BB
+t1404059661
+s1467
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello World/Classes/AppDelegate.m
+c0000000053B0400E0000000000001771
+t1404059662
+s6001
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello World/Classes/MainViewController.h
+c0000000053B0400E00000000000004D1
+t1404059662
+s1233
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello World/Classes/MainViewController.m
+c0000000053B0400E000000000000126C
+t1404059662
+s4716
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello World/Classes/MainViewController.xib
+c0000000053B0400D0000000000001759
+t1404059661
+s5977
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello World/Hello World-Info.plist
+c0000000053B0430E0000000000000A15
+t1404060430
+s2581
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello World/Hello World-Prefix.pch
+c0000000053B0400E00000000000003C7
+t1404059662
+s967
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello World/Resources/de.lproj/Localizable.strings
+c0000000053B0400D00000000000004C0
+t1404059661
+s1216
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello World/Resources/en.lproj/Localizable.strings
+c0000000053B0400D00000000000004AB
+t1404059661
+s1195
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello World/Resources/icons/icon-40.png
+c0000000053B0400D0000000000000FF2
+t1404059661
+s4082
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello World/Resources/icons/icon-40@2x.png
+c0000000053B0400D0000000000001CF3
+t1404059661
+s7411
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello World/Resources/icons/icon-50.png
+c0000000053B0400D000000000000130A
+t1404059661
+s4874
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello World/Resources/icons/icon-50@2x.png
+c0000000053B0400D000000000000258B
+t1404059661
+s9611
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello World/Resources/icons/icon-60.png
+c0000000053B0400D00000000000016B3
+t1404059661
+s5811
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello World/Resources/icons/icon-60@2x.png
+c0000000053B0400D0000000000002E94
+t1404059661
+s11924
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello World/Resources/icons/icon-72.png
+c0000000053B0400D0000000000001350
+t1404059661
+s4944
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello World/Resources/icons/icon-72@2x.png
+c0000000053B0400D0000000000002DBA
+t1404059661
+s11706
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello World/Resources/icons/icon-76.png
+c0000000053B0400D0000000000001B71
+t1404059661
+s7025
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello World/Resources/icons/icon-76@2x.png
+c0000000053B0400D0000000000003B9E
+t1404059661
+s15262
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello World/Resources/icons/icon-small.png
+c0000000053B0400D0000000000000CDE
+t1404059661
+s3294
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello World/Resources/icons/icon-small@2x.png
+c0000000053B0400D00000000000015E8
+t1404059661
+s5608
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello World/Resources/icons/icon.png
+c0000000053B0400D0000000000000F3E
+t1404059661
+s3902
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello World/Resources/icons/icon@2x.png
+c0000000053B0400D0000000000001EBD
+t1404059661
+s7869
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello World/Resources/splash/Default-568h@2x~iphone.png
+c0000000053B0400D00000000000085B1
+t1404059661
+s34225
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello World/Resources/splash/Default-Landscape@2x~ipad.png
+c0000000053B0400D0000000000033D0A
+t1404059661
+s212234
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello World/Resources/splash/Default-Landscape~ipad.png
+c0000000053B0400D00000000000166A2
+t1404059661
+s91810
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello World/Resources/splash/Default-Portrait@2x~ipad.png
+c0000000053B0400D0000000000033F7C
+t1404059661
+s212860
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello World/Resources/splash/Default-Portrait~ipad.png
+c0000000053B0400D0000000000016641
+t1404059661
+s91713
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello World/Resources/splash/Default@2x~iphone.png
+c0000000053B0400D0000000000007323
+t1404059661
+s29475
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello World/Resources/splash/Default~iphone.png
+c0000000053B0400D000000000000289A
+t1404059661
+s10394
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello World/main.m
+c0000000053B0400E000000000000045D
+t1404059662
+s1117
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/Hello World.build/Debug-iphonesimulator/Hello World.build/Objects-normal/i386/AppDelegate.o
+t1404060245
+s77616
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/Hello World.build/Debug-iphonesimulator/Hello World.build/Objects-normal/i386/Hello World.LinkFileList
+c0000000053B042500000000000000273
+t1404060240
+s627
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/Hello World.build/Debug-iphonesimulator/Hello World.build/Objects-normal/i386/MainViewController.o
+t1404060245
+s51788
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/Hello World.build/Debug-iphonesimulator/Hello World.build/Objects-normal/i386/main.o
+t1404060245
+s3156
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/Hello World.build/Debug-iphonesimulator/Hello World.build/Script-304B58A110DAC018002A0835.sh
+c0000000053B04250000000000000002D
+t1404060240
+s45
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello World.app
+t1404060431
+s1020
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello World.app.dSYM
+t1404060426
+s102
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello World.app/Default-568h@2x~iphone.png
+t1404060240
+s34225
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello World.app/Default-Landscape@2x~ipad.png
+t1404060240
+s212234
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello World.app/Default-Landscape~ipad.png
+t1404060240
+s91810
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello World.app/Default-Portrait@2x~ipad.png
+t1404060240
+s212860
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello World.app/Default-Portrait~ipad.png
+t1404060240
+s91713
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello World.app/Default@2x~iphone.png
+t1404060240
+s29475
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello World.app/Default~iphone.png
+t1404060240
+s10394
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello World.app/Hello World
+t1404060245
+s279044
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello World.app/Info.plist
+t1404060431
+s1283
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello World.app/MainViewController.nib
+t1404060244
+s836
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello World.app/PkgInfo
+t2
+s0
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello World.app/de.lproj/Localizable.strings
+t1404060240
+s280
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello World.app/en.lproj/Localizable.strings
+t1404060240
+s166
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello World.app/icon-40.png
+t1404060240
+s4082
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello World.app/icon-40@2x.png
+t1404060240
+s7411
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello World.app/icon-50.png
+t1404060240
+s4874
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello World.app/icon-50@2x.png
+t1404060240
+s9611
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello World.app/icon-60.png
+t1404060240
+s5811
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello World.app/icon-60@2x.png
+t1404060240
+s11924
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello World.app/icon-72.png
+t1404060240
+s4944
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello World.app/icon-72@2x.png
+t1404060240
+s11706
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello World.app/icon-76.png
+t1404060240
+s7025
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello World.app/icon-76@2x.png
+t1404060240
+s15262
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello World.app/icon-small.png
+t1404060240
+s3294
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello World.app/icon-small@2x.png
+t1404060240
+s5608
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello World.app/icon.png
+t1404060240
+s3902
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello World.app/icon@2x.png
+t1404060240
+s7869
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+c0000000053B0424D0000000000000D19
+t1404060237
+s3353
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+c0000000053B0424D00000000000008BA
+t1404060237
+s2234
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+c0000000053B0424D00000000000004E2
+t1404060237
+s1250
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+c0000000053B0424D0000000000000503
+t1404060237
+s1283
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+c0000000053B0424D00000000000007E6
+t1404060237
+s2022
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+c0000000053B0424D00000000000008F3
+t1404060237
+s2291
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+c0000000053B0424D0000000000000C13
+t1404060237
+s3091
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+c0000000053B0424D0000000000000408
+t1404060237
+s1032
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+c0000000053B0424D0000000000000ACC
+t1404060237
+s2764
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+c0000000053B0424D00000000000004B4
+t1404060237
+s1204
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+c0000000053B0424D00000000000003A0
+t1404060237
+s928
+
+N/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/libCordova.a
+c0000000053B0425000000000000D5150
+t1404060240
+s872784
+
+N/usr/lib/libSystem.B.dylib
+c00000000537D5485000000000000E6D0
+t1400722565
+s59088
+
+N/usr/lib/system/libcache.dylib
+c0000000052A2CA400000000000012A00
+t1386400320
+s76288
+
+N/usr/lib/system/libcommonCrypto.dylib
+c0000000052A2CA0F000000000002E320
+t1386400271
+s189216
+
+N/usr/lib/system/libcompiler_rt.dylib
+c0000000052A2CA260000000000021860
+t1386400294
+s137312
+
+N/usr/lib/system/libcopyfile.dylib
+c0000000052A2CA3F000000000001B620
+t1386400319
+s112160
+
+N/usr/lib/system/libcorecrypto.dylib
+c0000000052A2CA3F00000000000BD920
+t1386400319
+s776480
+
+N/usr/lib/system/libdyld.dylib
+c00000000537D54A900000000000141F0
+t1400722601
+s82416
+
+N/usr/lib/system/libkeymgr.dylib
+c0000000052A2CA40000000000000A120
+t1386400320
+s41248
+
+N/usr/lib/system/liblaunch.dylib
+c0000000053110C82000000000001D550
+t1393626242
+s120144
+
+N/usr/lib/system/libmacho.dylib
+c0000000052A2CA3F0000000000014EE0
+t1386400319
+s85728
+
+N/usr/lib/system/libquarantine.dylib
+c0000000052A2CA430000000000010380
+t1386400323
+s66432
+
+N/usr/lib/system/libremovefile.dylib
+c0000000052A2CA43000000000000C4C0
+t1386400323
+s50368
+
+N/usr/lib/system/libsystem_asl.dylib
+c0000000052A2CA4000000000000357A0
+t1386400320
+s219040
+
+N/usr/lib/system/libsystem_blocks.dylib
+c0000000052A2CA40000000000000C070
+t1386400320
+s49264
+
+N/usr/lib/system/libsystem_c.dylib
+c0000000053110C4A0000000000168D00
+t1393626186
+s1477888
+
+N/usr/lib/system/libsystem_configuration.dylib
+c00000000537D54A20000000000010630
+t1400722594
+s67120
+
+N/usr/lib/system/libsystem_dnssd.dylib
+c0000000053110C83000000000001DF10
+t1393626243
+s122640
+
+N/usr/lib/system/libsystem_info.dylib
+c0000000052A2CA260000000000075B00
+t1386400294
+s482048
+
+N/usr/lib/system/libsystem_kernel.dylib
+c00000000537D5485000000000007CD60
+t1400722565
+s511328
+
+N/usr/lib/system/libsystem_m.dylib
+c0000000052A2CA2600000000000766C0
+t1386400294
+s485056
+
+N/usr/lib/system/libsystem_malloc.dylib
+c0000000053110C830000000000044DC0
+t1393626243
+s282048
+
+N/usr/lib/system/libsystem_notify.dylib
+c0000000052A2CA260000000000021FA0
+t1386400294
+s139168
+
+N/usr/lib/system/libsystem_platform.dylib
+c0000000053110C83000000000002D920
+t1393626243
+s186656
+
+N/usr/lib/system/libsystem_pthread.dylib
+c0000000052A2CA41000000000001E570
+t1386400321
+s124272
+
+N/usr/lib/system/libsystem_sandbox.dylib
+c00000000537D5494000000000000CC70
+t1400722580
+s52336
+
+N/usr/lib/system/libunc.dylib
+c0000000052A2CA37000000000000C3F0
+t1386400311
+s50160
+
+N/usr/lib/system/libunwind.dylib
+c0000000052A2CA4100000000000199F0
+t1386400321
+s104944
+
+N/var/folders/m6/1ct_mxc101q25hf1thh0xmqm0000gq/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Hello World-Prefix-bcuxtembfeehwzdnqdjqzufivske/Hello World-Prefix.pch.pch
+t1404060245
+s5378088
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciese5b9668f7a60b941^dbfd668f7a60b941^---0#1#1#--18"Check dependencies36"ACA7EA23-D006-4694-8D73-973DBC37BCC3-
+
+CCompileC build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/Objects-normal/i386/AppDelegate.o /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello\ World/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s425753045.415329
+e425753045.537280
+r1
+xCompileC
+xbuild/Hello World.build/Debug-iphonesimulator/Hello World.build/Objects-normal/i386/AppDelegate.o
+x/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello World/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello World/Classes/AppDelegate.m
+d/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello World/Classes/AppDelegate.h
+d/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+d/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+d/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+d/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+d/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello World/Classes/MainViewController.h
+d/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection152"Compile /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello World/Classes/AppDelegate.m227"[1mCompileC[0m build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/Objects-normal/i386/AppDelegate.o [1mHello\ World/Classes/AppDelegate.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerff756ad57960b941^3b8c89d57960b941^---0#0#1#-19%DVTDocumentLocation2@153"file:///Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello%20World/Classes/AppDelegate.m0000000000000000^4947"[1mCompileC[0m build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/Objects-normal/i386/AppDelegate.o [1mHello\ World/Classes/AppDelegate.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/Hello\ World-generated-files.hmap -I/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/Hello\ World-own-target-headers.hmap -I/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/Hello\ World-all-target-headers.hmap -iquote /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/Hello\ World-project-headers.hmap -I/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/include -I/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/usr/local/lib/include -I/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/UninstalledProducts/include -I/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator -I/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/DerivedSources/i386 -I/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/DerivedSources -F/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator -include /var/folders/m6/1ct_mxc101q25hf1thh0xmqm0000gq/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Hello\ World-Prefix-bcuxtembfeehwzdnqdjqzufivske/Hello\ World-Prefix.pch -MMD -MT dependencies -MF /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/Objects-normal/i386/AppDelegate.dia -c /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello\ World/Classes/AppDelegate.m -o /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/Objects-normal/i386/AppDelegate.o36"A85CF025-47B2-4569-A6F4-43D63E3D2A93-
+b24F3C545-9364-44FA-BC9B-51FDE5084980
+
+CCompileC build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/Objects-normal/i386/MainViewController.o /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello\ World/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s425753045.446038
+e425753045.535957
+r1
+xCompileC
+xbuild/Hello World.build/Debug-iphonesimulator/Hello World.build/Objects-normal/i386/MainViewController.o
+x/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello World/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello World/Classes/MainViewController.m
+d/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello World/Classes/MainViewController.h
+d/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+d/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+d/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+d/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+d/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection159"Compile /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello World/Classes/MainViewController.m241"[1mCompileC[0m build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/Objects-normal/i386/MainViewController.o [1mHello\ World/Classes/MainViewController.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler2b5172d57960b941^344c89d57960b941^---0#0#1#-19%DVTDocumentLocation2@160"file:///Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello%20World/Classes/MainViewController.m0000000000000000^4989"[1mCompileC[0m build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/Objects-normal/i386/MainViewController.o [1mHello\ World/Classes/MainViewController.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/Hello\ World-generated-files.hmap -I/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/Hello\ World-own-target-headers.hmap -I/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/Hello\ World-all-target-headers.hmap -iquote /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/Hello\ World-project-headers.hmap -I/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/include -I/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/usr/local/lib/include -I/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/UninstalledProducts/include -I/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator -I/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/DerivedSources/i386 -I/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/DerivedSources -F/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator -include /var/folders/m6/1ct_mxc101q25hf1thh0xmqm0000gq/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Hello\ World-Prefix-bcuxtembfeehwzdnqdjqzufivske/Hello\ World-Prefix.pch -MMD -MT dependencies -MF /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/Objects-normal/i386/MainViewController.dia -c /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello\ World/Classes/MainViewController.m -o /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/Objects-normal/i386/MainViewController.o36"F407D1BE-FFA1-429B-A07D-6072241F2218-
+b24F3C545-9364-44FA-BC9B-51FDE5084980
+
+CCompileC build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/Objects-normal/i386/main.o /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello\ World/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s425753045.413731
+e425753045.445695
+r1
+xCompileC
+xbuild/Hello World.build/Debug-iphonesimulator/Hello World.build/Objects-normal/i386/main.o
+x/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello World/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello World/main.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection137"Compile /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello World/main.m205"[1mCompileC[0m build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/Objects-normal/i386/main.o [1mHello\ World/main.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler5b0c6ad57960b941^705c72d57960b941^---0#0#1#-19%DVTDocumentLocation2@138"file:///Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello%20World/main.m0000000000000000^4889"[1mCompileC[0m build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/Objects-normal/i386/main.o [1mHello\ World/main.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/Hello\ World-generated-files.hmap -I/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/Hello\ World-own-target-headers.hmap -I/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/Hello\ World-all-target-headers.hmap -iquote /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/Hello\ World-project-headers.hmap -I/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/include -I/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/usr/local/lib/include -I/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/UninstalledProducts/include -I/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator -I/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/DerivedSources/i386 -I/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/DerivedSources -F/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator -include /var/folders/m6/1ct_mxc101q25hf1thh0xmqm0000gq/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Hello\ World-Prefix-bcuxtembfeehwzdnqdjqzufivske/Hello\ World-Prefix.pch -MMD -MT dependencies -MF /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/Objects-normal/i386/main.d --serialize-diagnostics /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/Objects-normal/i386/main.dia -c /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello\ World/main.m -o /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/Objects-normal/i386/main.o36"DA1EA7CF-8E83-42B7-BBA3-CDE829068199-
+b24F3C545-9364-44FA-BC9B-51FDE5084980
+
+CCompileXIB /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello\ World/Classes/MainViewController.xib
+s425753040.658548
+e425753044.946207
+r1
+xCompileXIB
+x/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello World/Classes/MainViewController.xib
+o2014-06-29 09:44:04.144 Interface Builder Cocoa Touch Tool[14550:303] CFPreferences: user home directory at file:///Users/jaewookkim/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection163"Compiling /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello World/Classes/MainViewController.xib70"[1mCompileXIB[0m [1mHello\ World/Classes/MainViewController.xib[0me4bfa8d07960b941^f549f2d47960b941^-235"2014-06-29 09:44:04.144 Interface Builder Cocoa Touch Tool[14550:303] CFPreferences: user home directory at file:///Users/jaewookkim/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@162"file:///Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello%20World/Classes/MainViewController.xib0000000000000000^1160"[1mCompileXIB[0m [1mHello\ World/Classes/MainViewController.xib[0m    cd /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/tools"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 6.0 --output-format human-readable-text --compile /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello\ World.app/MainViewController.nib /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello\ World/Classes/MainViewController.xib36"9BC2F807-51FA-4B9F-8104-C4C98F856808-
+b24F3C545-9364-44FA-BC9B-51FDE5084980
+
+CCopyStringsFile /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello\ World.app/de.lproj/Localizable.strings Hello\ World/Resources/de.lproj/Localizable.strings
+s425753040.664896
+e425753040.667288
+r1
+xCopyStringsFile
+x/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello World.app/de.lproj/Localizable.strings
+xHello World/Resources/de.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy Hello World/Resources/de.lproj/Localizable.strings136"[1mCopyStringsFile[0m build/emulator/Hello\ World.app/de.lproj/Localizable.strings Hello\ World/Resources/de.lproj/Localizable.strings3c4daad07960b941^80d4aad07960b941^---0#0#1#-19%DVTDocumentLocation2@170"file:///Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello%20World/Resources/de.lproj/Localizable.strings0000000000000000^897"[1mCopyStringsFile[0m build/emulator/Hello\ World.app/de.lproj/Localizable.strings Hello\ World/Resources/de.lproj/Localizable.strings    cd /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/tools"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello\ World.app/de.lproj -- Hello\ World/Resources/de.lproj/Localizable.strings36"0E8BD912-1BC4-448A-886A-A446DF8CCAE6-
+b24F3C545-9364-44FA-BC9B-51FDE5084980
+
+CCopyStringsFile /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello\ World.app/en.lproj/Localizable.strings Hello\ World/Resources/en.lproj/Localizable.strings
+s425753040.657801
+e425753040.660178
+r1
+xCopyStringsFile
+x/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello World.app/en.lproj/Localizable.strings
+xHello World/Resources/en.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy Hello World/Resources/en.lproj/Localizable.strings136"[1mCopyStringsFile[0m build/emulator/Hello\ World.app/en.lproj/Localizable.strings Hello\ World/Resources/en.lproj/Localizable.stringsb77ca8d07960b941^ea07a9d07960b941^---0#0#1#-19%DVTDocumentLocation2@170"file:///Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello%20World/Resources/en.lproj/Localizable.strings0000000000000000^897"[1mCopyStringsFile[0m build/emulator/Hello\ World.app/en.lproj/Localizable.strings Hello\ World/Resources/en.lproj/Localizable.strings    cd /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/tools"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello\ World.app/en.lproj -- Hello\ World/Resources/en.lproj/Localizable.strings36"1AFEE633-1C71-425A-B0E2-806CD3A14CB9-
+b24F3C545-9364-44FA-BC9B-51FDE5084980
+
+CCpResource Hello\ World/Resources/icons/icon-40.png build/emulator/Hello\ World.app/icon-40.png
+s425753040.688346
+e425753040.691475
+r1
+xCpResource
+xHello World/Resources/icons/icon-40.png
+xbuild/emulator/Hello World.app/icon-40.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy build/emulator/Hello World.app/icon-40.png103"[1mCpResource[0m Hello\ World/Resources/icons/icon-40.png build/emulator/Hello\ World.app/icon-40.png2e8cb0d07960b941^e832b1d07960b941^---0#0#1#-19%DVTDocumentLocation2@162"file:///Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello%20World.app/icon-40.png0034887cdcffdf42^974"[1mCpResource[0m Hello\ World/Resources/icons/icon-40.png build/emulator/Hello\ World.app/icon-40.png    cd /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello\ World/Resources/icons/icon-40.png /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello\ World.app36"1BA3FAF4-29F5-4A16-9A51-4CE2908AF436-
+b24F3C545-9364-44FA-BC9B-51FDE5084980
+
+CCpResource Hello\ World/Resources/icons/icon-40@2x.png build/emulator/Hello\ World.app/icon-40@2x.png
+s425753040.652671
+e425753040.654092
+r1
+xCpResource
+xHello World/Resources/icons/icon-40@2x.png
+xbuild/emulator/Hello World.app/icon-40@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/emulator/Hello World.app/icon-40@2x.png109"[1mCpResource[0m Hello\ World/Resources/icons/icon-40@2x.png build/emulator/Hello\ World.app/icon-40@2x.png172aa7d07960b941^096fa7d07960b941^---0#0#1#-19%DVTDocumentLocation2@165"file:///Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello%20World.app/icon-40@2x.png0034887cdcffdf42^983"[1mCpResource[0m Hello\ World/Resources/icons/icon-40@2x.png build/emulator/Hello\ World.app/icon-40@2x.png    cd /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello\ World/Resources/icons/icon-40@2x.png /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello\ World.app36"3354EF1A-B56D-474C-B96A-AAC348DBB00D-
+b24F3C545-9364-44FA-BC9B-51FDE5084980
+
+CCpResource Hello\ World/Resources/icons/icon-50.png build/emulator/Hello\ World.app/icon-50.png
+s425753040.660657
+e425753040.662119
+r1
+xCpResource
+xHello World/Resources/icons/icon-50.png
+xbuild/emulator/Hello World.app/icon-50.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy build/emulator/Hello World.app/icon-50.png103"[1mCpResource[0m Hello\ World/Resources/icons/icon-50.png build/emulator/Hello\ World.app/icon-50.png7635a9d07960b941^3b8ca9d07960b941^---0#0#1#-19%DVTDocumentLocation2@162"file:///Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello%20World.app/icon-50.png0034887cdcffdf42^974"[1mCpResource[0m Hello\ World/Resources/icons/icon-50.png build/emulator/Hello\ World.app/icon-50.png    cd /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello\ World/Resources/icons/icon-50.png /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello\ World.app36"2B50E98E-9778-4E03-878E-1353CB862493-
+b24F3C545-9364-44FA-BC9B-51FDE5084980
+
+CCpResource Hello\ World/Resources/icons/icon-50@2x.png build/emulator/Hello\ World.app/icon-50@2x.png
+s425753040.704060
+e425753040.706466
+r1
+xCpResource
+xHello World/Resources/icons/icon-50@2x.png
+xbuild/emulator/Hello World.app/icon-50@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/emulator/Hello World.app/icon-50@2x.png109"[1mCpResource[0m Hello\ World/Resources/icons/icon-50@2x.png build/emulator/Hello\ World.app/icon-50@2x.pngd253b4d07960b941^3c2fb5d07960b941^---0#0#1#-19%DVTDocumentLocation2@165"file:///Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello%20World.app/icon-50@2x.png0034887cdcffdf42^983"[1mCpResource[0m Hello\ World/Resources/icons/icon-50@2x.png build/emulator/Hello\ World.app/icon-50@2x.png    cd /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello\ World/Resources/icons/icon-50@2x.png /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello\ World.app36"A2C21D5D-071C-4BD6-8024-2D6FFE8A0185-
+b24F3C545-9364-44FA-BC9B-51FDE5084980
+
+CCpResource Hello\ World/Resources/icons/icon-60.png build/emulator/Hello\ World.app/icon-60.png
+s425753040.696057
+e425753040.698034
+r1
+xCpResource
+xHello World/Resources/icons/icon-60.png
+xbuild/emulator/Hello World.app/icon-60.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy build/emulator/Hello World.app/icon-60.png103"[1mCpResource[0m Hello\ World/Resources/icons/icon-60.png build/emulator/Hello\ World.app/icon-60.png554bb2d07960b941^9415b3d07960b941^---0#0#1#-19%DVTDocumentLocation2@162"file:///Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello%20World.app/icon-60.png0034887cdcffdf42^974"[1mCpResource[0m Hello\ World/Resources/icons/icon-60.png build/emulator/Hello\ World.app/icon-60.png    cd /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello\ World/Resources/icons/icon-60.png /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello\ World.app36"CD986736-C4A5-4EEE-9D8E-2E332883B8C4-
+b24F3C545-9364-44FA-BC9B-51FDE5084980
+
+CCpResource Hello\ World/Resources/icons/icon-60@2x.png build/emulator/Hello\ World.app/icon-60@2x.png
+s425753040.662659
+e425753040.664700
+r1
+xCpResource
+xHello World/Resources/icons/icon-60@2x.png
+xbuild/emulator/Hello World.app/icon-60@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/emulator/Hello World.app/icon-60@2x.png109"[1mCpResource[0m Hello\ World/Resources/icons/icon-60@2x.png build/emulator/Hello\ World.app/icon-60@2x.pnge0bba9d07960b941^0859aad07960b941^---0#0#1#-19%DVTDocumentLocation2@165"file:///Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello%20World.app/icon-60@2x.png0034887cdcffdf42^983"[1mCpResource[0m Hello\ World/Resources/icons/icon-60@2x.png build/emulator/Hello\ World.app/icon-60@2x.png    cd /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello\ World/Resources/icons/icon-60@2x.png /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello\ World.app36"77E1D255-9600-47CB-AA8E-C29022845B7F-
+b24F3C545-9364-44FA-BC9B-51FDE5084980
+
+CCpResource Hello\ World/Resources/icons/icon-72.png build/emulator/Hello\ World.app/icon-72.png
+s425753040.654434
+e425753040.655952
+r1
+xCpResource
+xHello World/Resources/icons/icon-72.png
+xbuild/emulator/Hello World.app/icon-72.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy build/emulator/Hello World.app/icon-72.png103"[1mCpResource[0m Hello\ World/Resources/icons/icon-72.png build/emulator/Hello\ World.app/icon-72.pnged9ba7d07960b941^6803a8d07960b941^---0#0#1#-19%DVTDocumentLocation2@162"file:///Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello%20World.app/icon-72.png0034887cdcffdf42^974"[1mCpResource[0m Hello\ World/Resources/icons/icon-72.png build/emulator/Hello\ World.app/icon-72.png    cd /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello\ World/Resources/icons/icon-72.png /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello\ World.app36"6E1D52B1-1826-498F-9840-9A70A12D82BC-
+b24F3C545-9364-44FA-BC9B-51FDE5084980
+
+CCpResource Hello\ World/Resources/icons/icon-72@2x.png build/emulator/Hello\ World.app/icon-72@2x.png
+s425753040.709326
+e425753040.710558
+r1
+xCpResource
+xHello World/Resources/icons/icon-72@2x.png
+xbuild/emulator/Hello World.app/icon-72@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/emulator/Hello World.app/icon-72@2x.png109"[1mCpResource[0m Hello\ World/Resources/icons/icon-72@2x.png build/emulator/Hello\ World.app/icon-72@2x.png71aeb5d07960b941^24f2b5d07960b941^---0#0#1#-19%DVTDocumentLocation2@165"file:///Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello%20World.app/icon-72@2x.png0034887cdcffdf42^983"[1mCpResource[0m Hello\ World/Resources/icons/icon-72@2x.png build/emulator/Hello\ World.app/icon-72@2x.png    cd /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello\ World/Resources/icons/icon-72@2x.png /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello\ World.app36"50A0571E-7276-46E9-B2BB-8D4CE36E13CE-
+b24F3C545-9364-44FA-BC9B-51FDE5084980
+
+CCpResource Hello\ World/Resources/icons/icon-76.png build/emulator/Hello\ World.app/icon-76.png
+s425753040.652677
+e425753040.654049
+r1
+xCpResource
+xHello World/Resources/icons/icon-76.png
+xbuild/emulator/Hello World.app/icon-76.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy build/emulator/Hello World.app/icon-76.png103"[1mCpResource[0m Hello\ World/Resources/icons/icon-76.png build/emulator/Hello\ World.app/icon-76.pngcf2ea7d07960b941^4ca5a7d07960b941^---0#0#1#-19%DVTDocumentLocation2@162"file:///Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello%20World.app/icon-76.png0034887cdcffdf42^974"[1mCpResource[0m Hello\ World/Resources/icons/icon-76.png build/emulator/Hello\ World.app/icon-76.png    cd /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello\ World/Resources/icons/icon-76.png /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello\ World.app36"26839062-4D94-4653-B835-C505A504EBE4-
+b24F3C545-9364-44FA-BC9B-51FDE5084980
+
+CCpResource Hello\ World/Resources/icons/icon-76@2x.png build/emulator/Hello\ World.app/icon-76@2x.png
+s425753040.706675
+e425753040.708859
+r1
+xCpResource
+xHello World/Resources/icons/icon-76@2x.png
+xbuild/emulator/Hello World.app/icon-76@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/emulator/Hello World.app/icon-76@2x.png109"[1mCpResource[0m Hello\ World/Resources/icons/icon-76@2x.png build/emulator/Hello\ World.app/icon-76@2x.png83fcb4d07960b941^d670b5d07960b941^---0#0#1#-19%DVTDocumentLocation2@165"file:///Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello%20World.app/icon-76@2x.png0034887cdcffdf42^983"[1mCpResource[0m Hello\ World/Resources/icons/icon-76@2x.png build/emulator/Hello\ World.app/icon-76@2x.png    cd /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello\ World/Resources/icons/icon-76@2x.png /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello\ World.app36"04038845-F469-49FF-85CC-66195D55E968-
+b24F3C545-9364-44FA-BC9B-51FDE5084980
+
+CCpResource Hello\ World/Resources/icons/icon-small.png build/emulator/Hello\ World.app/icon-small.png
+s425753040.667891
+e425753040.669896
+r1
+xCpResource
+xHello World/Resources/icons/icon-small.png
+xbuild/emulator/Hello World.app/icon-small.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/emulator/Hello World.app/icon-small.png109"[1mCpResource[0m Hello\ World/Resources/icons/icon-small.png build/emulator/Hello\ World.app/icon-small.pngd40eabd07960b941^058babd07960b941^---0#0#1#-19%DVTDocumentLocation2@165"file:///Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello%20World.app/icon-small.png0034887cdcffdf42^983"[1mCpResource[0m Hello\ World/Resources/icons/icon-small.png build/emulator/Hello\ World.app/icon-small.png    cd /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello\ World/Resources/icons/icon-small.png /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello\ World.app36"042F2C32-99F9-4415-8BFE-FF1AA1BD56EA-
+b24F3C545-9364-44FA-BC9B-51FDE5084980
+
+CCpResource Hello\ World/Resources/icons/icon-small@2x.png build/emulator/Hello\ World.app/icon-small@2x.png
+s425753040.681138
+e425753040.682482
+r1
+xCpResource
+xHello World/Resources/icons/icon-small@2x.png
+xbuild/emulator/Hello World.app/icon-small@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy build/emulator/Hello World.app/icon-small@2x.png115"[1mCpResource[0m Hello\ World/Resources/icons/icon-small@2x.png build/emulator/Hello\ World.app/icon-small@2x.png5073aed07960b941^d7c0aed07960b941^---0#0#1#-19%DVTDocumentLocation2@168"file:///Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello%20World.app/icon-small@2x.png0034887cdcffdf42^992"[1mCpResource[0m Hello\ World/Resources/icons/icon-small@2x.png build/emulator/Hello\ World.app/icon-small@2x.png    cd /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello\ World/Resources/icons/icon-small@2x.png /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello\ World.app36"9229891A-4752-4C70-BC96-7F2015C0F4D5-
+b24F3C545-9364-44FA-BC9B-51FDE5084980
+
+CCpResource Hello\ World/Resources/icons/icon.png build/emulator/Hello\ World.app/icon.png
+s425753040.655080
+e425753040.656178
+r1
+xCpResource
+xHello World/Resources/icons/icon.png
+xbuild/emulator/Hello World.app/icon.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy build/emulator/Hello World.app/icon.png97"[1mCpResource[0m Hello\ World/Resources/icons/icon.png build/emulator/Hello\ World.app/icon.png97c6a7d07960b941^1a15a8d07960b941^---0#0#1#-19%DVTDocumentLocation2@159"file:///Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello%20World.app/icon.png0034887cdcffdf42^965"[1mCpResource[0m Hello\ World/Resources/icons/icon.png build/emulator/Hello\ World.app/icon.png    cd /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello\ World/Resources/icons/icon.png /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello\ World.app36"1C12E541-50DE-4ADD-A426-B68C8F09A43D-
+b24F3C545-9364-44FA-BC9B-51FDE5084980
+
+CCpResource Hello\ World/Resources/icons/icon@2x.png build/emulator/Hello\ World.app/icon@2x.png
+s425753040.656065
+e425753040.658379
+r1
+xCpResource
+xHello World/Resources/icons/icon@2x.png
+xbuild/emulator/Hello World.app/icon@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy build/emulator/Hello World.app/icon@2x.png103"[1mCpResource[0m Hello\ World/Resources/icons/icon@2x.png build/emulator/Hello\ World.app/icon@2x.pngbb26a8d07960b941^779ea8d07960b941^---0#0#1#-19%DVTDocumentLocation2@162"file:///Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello%20World.app/icon@2x.png0034887cdcffdf42^974"[1mCpResource[0m Hello\ World/Resources/icons/icon@2x.png build/emulator/Hello\ World.app/icon@2x.png    cd /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello\ World/Resources/icons/icon@2x.png /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello\ World.app36"19CE2B2E-67D7-4FEB-B286-C62F5C0FA496-
+b24F3C545-9364-44FA-BC9B-51FDE5084980
+
+CCpResource Hello\ World/Resources/splash/Default-568h@2x~iphone.png build/emulator/Hello\ World.app/Default-568h@2x~iphone.png
+s425753040.701183
+e425753040.703872
+r1
+xCpResource
+xHello World/Resources/splash/Default-568h@2x~iphone.png
+xbuild/emulator/Hello World.app/Default-568h@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/emulator/Hello World.app/Default-568h@2x~iphone.png134"[1mCpResource[0m Hello\ World/Resources/splash/Default-568h@2x~iphone.png build/emulator/Hello\ World.app/Default-568h@2x~iphone.pngc2a1b3d07960b941^2d3fb4d07960b941^---0#0#1#-19%DVTDocumentLocation2@177"file:///Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello%20World.app/Default-568h@2x~iphone.png0034887cdcffdf42^1021"[1mCpResource[0m Hello\ World/Resources/splash/Default-568h@2x~iphone.png build/emulator/Hello\ World.app/Default-568h@2x~iphone.png    cd /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello\ World/Resources/splash/Default-568h@2x~iphone.png /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello\ World.app36"AC751FD6-DC10-40D8-A72A-04E7B5835858-
+b24F3C545-9364-44FA-BC9B-51FDE5084980
+
+CCpResource Hello\ World/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/Hello\ World.app/Default-Landscape@2x~ipad.png
+s425753040.670100
+e425753040.672041
+r1
+xCpResource
+xHello World/Resources/splash/Default-Landscape@2x~ipad.png
+xbuild/emulator/Hello World.app/Default-Landscape@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/emulator/Hello World.app/Default-Landscape@2x~ipad.png140"[1mCpResource[0m Hello\ World/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/Hello\ World.app/Default-Landscape@2x~ipad.png12a3abd07960b941^780bacd07960b941^---0#0#1#-19%DVTDocumentLocation2@180"file:///Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello%20World.app/Default-Landscape@2x~ipad.png0034887cdcffdf42^1030"[1mCpResource[0m Hello\ World/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/Hello\ World.app/Default-Landscape@2x~ipad.png    cd /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello\ World/Resources/splash/Default-Landscape@2x~ipad.png /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello\ World.app36"C8CFD4CE-B499-4B52-98D6-FE9463A0213B-
+b24F3C545-9364-44FA-BC9B-51FDE5084980
+
+CCpResource Hello\ World/Resources/splash/Default-Landscape~ipad.png build/emulator/Hello\ World.app/Default-Landscape~ipad.png
+s425753040.672277
+e425753040.678704
+r1
+xCpResource
+xHello World/Resources/splash/Default-Landscape~ipad.png
+xbuild/emulator/Hello World.app/Default-Landscape~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/emulator/Hello World.app/Default-Landscape~ipad.png134"[1mCpResource[0m Hello\ World/Resources/splash/Default-Landscape~ipad.png build/emulator/Hello\ World.app/Default-Landscape~ipad.pngad86acd07960b941^95d4add07960b941^---0#0#1#-19%DVTDocumentLocation2@177"file:///Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello%20World.app/Default-Landscape~ipad.png0034887cdcffdf42^1021"[1mCpResource[0m Hello\ World/Resources/splash/Default-Landscape~ipad.png build/emulator/Hello\ World.app/Default-Landscape~ipad.png    cd /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello\ World/Resources/splash/Default-Landscape~ipad.png /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello\ World.app36"CD9C8174-C96D-4B3F-994B-38E9EF5D3AEA-
+b24F3C545-9364-44FA-BC9B-51FDE5084980
+
+CCpResource Hello\ World/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/Hello\ World.app/Default-Portrait@2x~ipad.png
+s425753040.678931
+e425753040.680927
+r1
+xCpResource
+xHello World/Resources/splash/Default-Portrait@2x~ipad.png
+xbuild/emulator/Hello World.app/Default-Portrait@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/emulator/Hello World.app/Default-Portrait@2x~ipad.png138"[1mCpResource[0m Hello\ World/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/Hello\ World.app/Default-Portrait@2x~ipad.png31ebadd07960b941^af7caed07960b941^---0#0#1#-19%DVTDocumentLocation2@179"file:///Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello%20World.app/Default-Portrait@2x~ipad.png0034887cdcffdf42^1027"[1mCpResource[0m Hello\ World/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/Hello\ World.app/Default-Portrait@2x~ipad.png    cd /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello\ World/Resources/splash/Default-Portrait@2x~ipad.png /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello\ World.app36"5F9D0F0A-5EF4-4F5B-82B9-B018A082BCEC-
+b24F3C545-9364-44FA-BC9B-51FDE5084980
+
+CCpResource Hello\ World/Resources/splash/Default-Portrait~ipad.png build/emulator/Hello\ World.app/Default-Portrait~ipad.png
+s425753040.683060
+e425753040.686590
+r1
+xCpResource
+xHello World/Resources/splash/Default-Portrait~ipad.png
+xbuild/emulator/Hello World.app/Default-Portrait~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/emulator/Hello World.app/Default-Portrait~ipad.png132"[1mCpResource[0m Hello\ World/Resources/splash/Default-Portrait~ipad.png build/emulator/Hello\ World.app/Default-Portrait~ipad.png28f0aed07960b941^38dcafd07960b941^---0#0#1#-19%DVTDocumentLocation2@176"file:///Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello%20World.app/Default-Portrait~ipad.png0034887cdcffdf42^1018"[1mCpResource[0m Hello\ World/Resources/splash/Default-Portrait~ipad.png build/emulator/Hello\ World.app/Default-Portrait~ipad.png    cd /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello\ World/Resources/splash/Default-Portrait~ipad.png /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello\ World.app36"7AB00ECB-4957-4715-B4AE-20C623A4A3C6-
+b24F3C545-9364-44FA-BC9B-51FDE5084980
+
+CCpResource Hello\ World/Resources/splash/Default@2x~iphone.png build/emulator/Hello\ World.app/Default@2x~iphone.png
+s425753040.691732
+e425753040.695409
+r1
+xCpResource
+xHello World/Resources/splash/Default@2x~iphone.png
+xbuild/emulator/Hello World.app/Default@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/emulator/Hello World.app/Default@2x~iphone.png124"[1mCpResource[0m Hello\ World/Resources/splash/Default@2x~iphone.png build/emulator/Hello\ World.app/Default@2x~iphone.png6729b1d07960b941^f912b2d07960b941^---0#0#1#-19%DVTDocumentLocation2@172"file:///Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello%20World.app/Default@2x~iphone.png0034887cdcffdf42^1006"[1mCpResource[0m Hello\ World/Resources/splash/Default@2x~iphone.png build/emulator/Hello\ World.app/Default@2x~iphone.png    cd /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello\ World/Resources/splash/Default@2x~iphone.png /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello\ World.app36"BEF5C6C5-1B88-48A9-98C8-47F4E1392D15-
+b24F3C545-9364-44FA-BC9B-51FDE5084980
+
+CCpResource Hello\ World/Resources/splash/Default~iphone.png build/emulator/Hello\ World.app/Default~iphone.png
+s425753040.699082
+e425753040.700777
+r1
+xCpResource
+xHello World/Resources/splash/Default~iphone.png
+xbuild/emulator/Hello World.app/Default~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/emulator/Hello World.app/Default~iphone.png118"[1mCpResource[0m Hello\ World/Resources/splash/Default~iphone.png build/emulator/Hello\ World.app/Default~iphone.png6b0bb3d07960b941^c26bb3d07960b941^---0#0#1#-19%DVTDocumentLocation2@169"file:///Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello%20World.app/Default~iphone.png0034887cdcffdf42^997"[1mCpResource[0m Hello\ World/Resources/splash/Default~iphone.png build/emulator/Hello\ World.app/Default~iphone.png    cd /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello\ World/Resources/splash/Default~iphone.png /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello\ World.app36"6B0E2A98-6F5A-4302-9A94-C60067CA0B71-
+b24F3C545-9364-44FA-BC9B-51FDE5084980
+
+CGenerateDSYMFile /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello\ World.app.dSYM /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello\ World.app/Hello\ World
+s425753231.726562
+e425753231.774175
+r1
+xGenerateDSYMFile
+x/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello World.app.dSYM
+x/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello World.app/Hello World
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection155"Generate /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello World.app.dSYM114"[1mGenerateDSYMFile[0m [1mbuild/emulator/Hello\ World.app.dSYM[0m build/emulator/Hello\ World.app/Hello\ World2b17ba8f7a60b941^5131c68f7a60b941^---0#0#1#-19%DVTDocumentLocation2@156"file:///Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello%20World.app.dSYM/0000000000000000^985"[1mGenerateDSYMFile[0m [1mbuild/emulator/Hello\ World.app.dSYM[0m build/emulator/Hello\ World.app/Hello\ World    cd /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello\ World.app/Hello\ World -o /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello\ World.app.dSYM36"CD036217-BBBD-4386-97CE-451E005DA1DD-
+bD4B966DF-C1E7-4E6D-8CE4-2B9425BD8650
+
+CLd /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello\ World.app/Hello\ World normal i386
+s425753045.538814
+e425753045.705253
+r1
+xLd
+x/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello World.app/Hello World
+xnormal
+xi386
+d/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/Hello World.build/Debug-iphonesimulator/Hello World.build/Objects-normal/i386/Hello World.LinkFileList
+d/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/libCordova.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+d/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/Hello World.build/Debug-iphonesimulator/Hello World.build/Objects-normal/i386/main.o
+d/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/Hello World.build/Debug-iphonesimulator/Hello World.build/Objects-normal/i386/AppDelegate.o
+d/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/Hello World.build/Debug-iphonesimulator/Hello World.build/Objects-normal/i386/MainViewController.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libdyld.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection158"Link /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello World.app/Hello World67"[1mLd[0m build/emulator/Hello\ World.app/Hello\ World normal i38678098ad57960b941^fc8bb4d57960b941^---0#0#1#--2371"[1mLd[0m build/emulator/Hello\ World.app/Hello\ World normal i386    cd /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios    export IPHONEOS_DEPLOYMENT_TARGET=6.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator -F/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator -filelist /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/Objects-normal/i386/Hello\ World.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/libCordova.a -ObjC -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.0 -framework AssetsLibrary /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/libCordova.a -framework CoreGraphics -framework MobileCoreServices -framework CoreLocation -Xlinker -dependency_info -Xlinker /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/Objects-normal/i386/Hello\ World_dependency_info.dat -o /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello\ World.app/Hello\ World36"D2A33790-5CB4-4883-B41C-2C241CE7D135-
+b24F3C545-9364-44FA-BC9B-51FDE5084980
+
+CPhaseScriptExecution Copy\ www\ directory /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/Script-304B58A110DAC018002A0835.sh
+s425753231.407489
+e425753231.716565
+r1
+xPhaseScriptExecution
+xCopy www directory
+x/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/Hello World.build/Debug-iphonesimulator/Hello World.build/Script-304B58A110DAC018002A0835.sh
+o
+oreal	0m0.278s
+ouser	0m0.090s
+osys	0m0.168s
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'150"[1mPhaseScriptExecution[0m Copy\ www\ directory build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/Script-304B58A110DAC018002A0835.sh030a698f7a60b941^9e9ab78f7a60b941^-42"real	0m0.278suser	0m0.090ssys	0m0.168s3(21%IDEActivityLogMessage2@14"real	0m0.278s-425753231#1#14#-0#-----2@14"user	0m0.090s-425753231#15#14#-0#-----2@13"sys	0m0.168s-425753231#29#13#-0#-----0#0#1#--500"[1mPhaseScriptExecution[0m Copy\ www\ directory build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/Script-304B58A110DAC018002A0835.sh    cd /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios    /bin/sh -c \"/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/Script-304B58A110DAC018002A0835.sh\"36"3E5A93F9-C6A7-497A-BB3B-BB4AA8B611D5-
+bD4B966DF-C1E7-4E6D-8CE4-2B9425BD8650
+
+CProcessInfoPlistFile /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello\ World.app/Info.plist /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello\ World/Hello\ World-Info.plist
+s425753231.403268
+e425753231.406098
+r1
+xProcessInfoPlistFile
+x/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello World.app/Info.plist
+x/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello World/Hello World-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection153"Process /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello World/Hello World-Info.plist116"[1mProcessInfoPlistFile[0m build/emulator/Hello\ World.app/Info.plist [1mHello\ World/Hello\ World-Info.plist[0m4b5c678f7a60b941^3cf6678f7a60b941^---0#0#1#-19%DVTDocumentLocation2@156"file:///Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello%20World/Hello%20World-Info.plist0000000000000000^1139"[1mProcessInfoPlistFile[0m build/emulator/Hello\ World.app/Info.plist [1mHello\ World/Hello\ World-Info.plist[0m    cd /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/tools"    builtin-infoPlistUtility /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello\ World/Hello\ World-Info.plist -genpkginfo /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello\ World.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello\ World.app/Info.plist36"8913925F-31B2-4F69-89E3-AF394D40B92D-
+bD4B966DF-C1E7-4E6D-8CE4-2B9425BD8650
+
+CProcessPCH /var/folders/m6/1ct_mxc101q25hf1thh0xmqm0000gq/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Hello\ World-Prefix-bcuxtembfeehwzdnqdjqzufivske/Hello\ World-Prefix.pch.pch Hello\ World/Hello\ World-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s425753044.949098
+e425753045.412767
+r1
+xProcessPCH
+x/var/folders/m6/1ct_mxc101q25hf1thh0xmqm0000gq/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Hello World-Prefix-bcuxtembfeehwzdnqdjqzufivske/Hello World-Prefix.pch.pch
+xHello World/Hello World-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello World/Hello World-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Precompile Hello World/Hello World-Prefix.pch318"[1mProcessPCH[0m /var/folders/m6/1ct_mxc101q25hf1thh0xmqm0000gq/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Hello\ World-Prefix-bcuxtembfeehwzdnqdjqzufivske/Hello\ World-Prefix.pch.pch Hello\ World/Hello\ World-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler3f19f3d47960b941^d2ab69d57960b941^---0#0#1#-19%DVTDocumentLocation2@156"file:///Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello%20World/Hello%20World-Prefix.pch0000000000000000^4795"[1mProcessPCH[0m /var/folders/m6/1ct_mxc101q25hf1thh0xmqm0000gq/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Hello\ World-Prefix-bcuxtembfeehwzdnqdjqzufivske/Hello\ World-Prefix.pch.pch Hello\ World/Hello\ World-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/Hello\ World-generated-files.hmap -I/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/Hello\ World-own-target-headers.hmap -I/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/Hello\ World-all-target-headers.hmap -iquote /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/Hello\ World-project-headers.hmap -I/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/include -I/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/usr/local/lib/include -I/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/UninstalledProducts/include -I/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator -I/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/DerivedSources/i386 -I/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/Hello\ World.build/Debug-iphonesimulator/Hello\ World.build/DerivedSources -F/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator --serialize-diagnostics /var/folders/m6/1ct_mxc101q25hf1thh0xmqm0000gq/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Hello\ World-Prefix-bcuxtembfeehwzdnqdjqzufivske/Hello\ World-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/m6/1ct_mxc101q25hf1thh0xmqm0000gq/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Hello\ World-Prefix-bcuxtembfeehwzdnqdjqzufivske/Hello\ World-Prefix.pch.d -c /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/Hello\ World/Hello\ World-Prefix.pch -o /var/folders/m6/1ct_mxc101q25hf1thh0xmqm0000gq/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Hello\ World-Prefix-bcuxtembfeehwzdnqdjqzufivske/Hello\ World-Prefix.pch.pch36"56ACE59B-36EE-41E6-97FB-2DD322603D12-
+b24F3C545-9364-44FA-BC9B-51FDE5084980
+
+CTouch /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello\ World.app
+s425753231.775753
+e425753231.781580
+r1
+xTouch
+x/Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello World.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection147"Touch /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello World.app45"[1mTouch[0m build/emulator/Hello\ World.app86acc68f7a60b941^8b16c88f7a60b941^---0#0#1#--674"[1mTouch[0m build/emulator/Hello\ World.app    cd /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/platform-tools:/Users/jaewookkim/Applications/adt-bundle-mac-x86_64/sdk/tools"    /usr/bin/touch -c /Volumes/Data/Users/jaewookkim/Developments/oracle-ibeacon-hackathon-och2/samples/phonegap-start/platforms/ios/build/emulator/Hello\ World.app36"ED2D2180-CBDE-4147-AC8C-E03286563698-
+bD4B966DF-C1E7-4E6D-8CE4-2B9425BD8650
+
