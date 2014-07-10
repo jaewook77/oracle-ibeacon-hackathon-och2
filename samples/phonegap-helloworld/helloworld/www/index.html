@@ -21,6 +21,17 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDCtWH1QMYTRZVT7sbmwNIrLyXDF4eWAxs"></script>
 
     <title>Hello World</title>
+
+
+        <style type="text/css">
+
+            #map {
+
+    width:90%; /* you can use % */
+    height: auto;
+
+    }
+        </style>
 </head>
 
 <body>
@@ -31,21 +42,21 @@
         <!-- /header -->
 
         <div data-role="content" class="ui-content">
-            <ul data-role="listview" data-inset="true" data-filter="true">
-                <li><a href="#map-page" data-transition="slide">Google Map Test</a>
+            <ul data-role="listview" data-inset="true">
+<!--                 <li><a href="#map-page" data-transition="slide">Google Map Test</a>
+                </li> -->
+                <li><a href="#pagetwo" data-transition="slide">Rescue Me - User</a>
                 </li>
-                <li><a href="#pagetwo" data-transition="slide">Dialog Test</a>
-                </li>
-                <li><a href="#page-rescueme" data-transition="slide">Rescue Me</a>
+                <li><a href="#page-rescueme" data-transition="slide">Rescue Me - Firefighter</a>
                 </li>
                 <li><a href="#pagefour" data-transition="slide">iBeacon Test</a>
                 </li>
             </ul>
-            <form>
+<!--             <form>
                 <label for="slider-0">Input slider:</label>
                 <input type="range" name="slider" id="slider-0" value="25" min="0" max="100" />
             </form>
-            <a href="#" data-role="button" data-icon="star">Star button</a>
+            <a href="#" data-role="button" data-icon="star">Star button</a> -->
 
         </div>
         <!-- /content -->
@@ -56,7 +67,7 @@
         <!-- /footer -->
     </div>
 
-    <div data-role="page" id="map-page" data-url="map-page">
+<!--     <div data-role="page" id="map-page" data-url="map-page">
         <div data-role="header">
             <h1>Page One</h1>
             <a href="#home" class="ui-btn-left" data-icon="home" data-transition="slide" data-direction="reverse">Home</a>
@@ -64,40 +75,52 @@
         </div>
         <div role="main" class="ui-content" id="map-canvas">
         </div>
-    </div>
+    </div> -->
 
-    <div data-role="page" data-dialog="true" id="pagetwo">
+    <div data-role="page" id="pagetwo">
         <div data-role="header">
-            <h1>Page Two</h1>
-            <!-- move one step back in history -->
             <div class="ui-grid-a ui-btn-left">
-                <a href="#" data-rel="back" data-icon="carat-l" data-iconpos="notext" class="ui-link ui-btn ui-icon-carat-l ui-btn-icon-notext ui-shadow ui-corner-all ui-btn-active" data-role="button" role="button" data-transition="slide" data-direction="reverse">Back</a> 
-                <a href="#home" data-icon="home" data-iconpos="notext" class="ui-link ui-btn ui-icon-home ui-btn-icon-notext ui-shadow ui-corner-all ui-btn-active" data-role="button" role="button" data-transition="slide" data-direction="reverse">Home</a> 
+                <a href="#" data-rel="back" data-icon="carat-l" data-iconpos="notext" class="ui-link ui-btn ui-icon-carat-l ui-btn-icon-notext ui-shadow ui-corner-all ui-btn-active" data-role="button" role="button" data-transition="slide" data-direction="reverse">Back</a>  
             </div>
-            <!-- show right-aligned multiple icons -->
-            <div class="ui-grid-a ui-btn-right">
-                <!-- refresh -->
-                <a href="#" onclick="window.location.reload()" data-icon="refresh" data-iconpos="notext" class="ui-link ui-btn ui-icon-refresh ui-btn-icon-notext ui-shadow ui-corner-all ui-btn-active" data-role="button" role="button">Refresh</a> 
-                <a href="#page-rescueme" data-icon="carat-r" data-iconpos="notext" class="ui-link ui-btn ui-icon-carat-r ui-btn-icon-notext ui-shadow ui-corner-all ui-btn-active" data-role="button" role="button" data-transition="slide">Next</a> 
-            </div>
+         <h1>Rescue Me</h1>
         </div>
         <div data-role="main" class="ui-content">
+            <img id="map" src="img/map_edit.png" alt="map">
         </div>
+
+        <div data-role="footer" data-position="fixed" style="text-align:center;" data-theme="a">
+<a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-navigation ui-btn-icon-left ui-nodisc-icon ui-alt-icon">Exit</a>
+    <a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-phone ui-btn-icon-left ui-nodisc-icon ui-alt-icon">Emergency</a>
+
+        </div>
+
     </div>
 
     <div data-role="page" id="page-rescueme">
+
+  <div data-role="panel" id="revealPanel" data-display="reveal" data-position="right"> 
+<div data-role="header" style="text-align:center;">
+        <div data-role="controlgroup" data-type="horizontal" data-mini="true">
+            <a href="index.html" data-role="button" data-theme="b" >Floor</a>
+            <a href="index.html" data-role="button" >Building</a>
+        </div>
+
+    </div>
+    <a href="#pageone" data-rel="close" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left">Close panel</a>
+  </div> 
+
+
         <div data-role="header">
             <h1>Rescue Me</h1>
             <!-- move one step back in history -->
             <div class="ui-grid-a ui-btn-left">
-                <a href="#" data-rel="back" data-icon="carat-l" data-iconpos="notext" class="ui-link ui-btn ui-icon-carat-l ui-btn-icon-notext ui-shadow ui-corner-all ui-btn-active" data-role="button" role="button" data-transition="slide" data-direction="reverse">Back</a> 
-                <a href="#home" data-icon="home" data-iconpos="notext" class="ui-link ui-btn ui-icon-home ui-btn-icon-notext ui-shadow ui-corner-all ui-btn-active" data-role="button" role="button" data-transition="slide" data-direction="reverse">Home</a> 
+                <a href="#" data-rel="back" data-icon="carat-l" data-iconpos="notext" class="ui-link ui-btn ui-icon-carat-l ui-btn-icon-notext ui-shadow ui-corner-all ui-btn-active" data-role="button" role="button" data-transition="slide" data-direction="reverse">Back</a>  
             </div>
             <!-- show right-aligned multiple icons -->
             <div class="ui-grid-a ui-btn-right">
                 <!-- refresh -->
                 <a href="#" onclick="window.location.reload()" data-icon="refresh" data-iconpos="notext" class="ui-link ui-btn ui-icon-refresh ui-btn-icon-notext ui-shadow ui-corner-all ui-btn-active" data-role="button" role="button">Refresh</a> 
-                <a href="#page-rescueme" data-icon="carat-r" data-iconpos="notext" class="ui-link ui-btn ui-icon-carat-r ui-btn-icon-notext ui-shadow ui-corner-all ui-btn-active" data-role="button" role="button" data-transition="slide">Next</a> 
+                <a href="#revealPanel" data-icon="carat-r" data-iconpos="notext" class="ui-link ui-btn ui-icon-bars ui-btn-icon-notext ui-shadow ui-corner-all ui-btn-active" data-role="button" role="button" data-transition="slide">Menu</a> 
             </div>
         </div>
         <div data-role="main" class="ui-content" id="page-rescueme-main">
