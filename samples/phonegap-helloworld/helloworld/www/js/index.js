@@ -236,6 +236,9 @@ $(document).on("pagecreate", "#pagefour", function() {
     beaconManager.on('added', function(beacon) {
         var item = document.createElement('li');
         item.innerText = beacon.major + '/' + beacon.minor + ' - ' + formatDistance(beacon.distance);
+        if (beacon.major == 35318 && beacon.minor == 40305) {
+            item.innerText += ' (OCH2)';
+        }
         item.id = 'beacon_' + beacon.major + '_' + beacon.minor;
 
         beaconsList.appendChild(item);
