@@ -18,6 +18,17 @@
  */
 var myInterval;
 
+var registeredBeacons = [
+    {"major": -1, "minor": -1, "found": true, "distance": Infinity, "map": "img/mapnomarker.png"},
+    {"major": 27806, "minor": 6285, "found": false, "distance": 0, "map": "img/map_pos2.png", "coordinate": {"x": 120, "y": 50}}, 
+    {"major": 7403, "minor": 18272, "found": false, "distance": 0, "map": "img/map_edit.png", "coordinate": {"x": 0, "y": 50}},
+    {"major": 35318, "minor": 40305, "found": false, "distance": 0, "map": "img/map_pos3.png", "coordinate": {"x": 60, "y": 100}}];
+
+var abs_coordinate = {"x": 120, "y": 100};
+var myLocation = {"x": 25, "y": 50};
+
+var showOnlyEmergency = false;
+
 function getUiContentHeight() {
     var screen = $.mobile.getScreenHeight();
     var header = $(".ui-header").hasClass("ui-header-fixed") ? $(".ui-header").outerHeight() - 1 : $(".ui-header").outerHeight();
@@ -28,11 +39,6 @@ function getUiContentHeight() {
     var contentCurrent = $(".ui-content").outerHeight() - $(".ui-content").height();
     var content = screen - header - footer - contentCurrent;
     return content;
-}
-
-function getUiContentWidth() {
-
-    return $('[data-role="page"]').first().width();
 }
 
 function startRangingBeaconsInRegionCallback() {
@@ -110,7 +116,31 @@ $(document).on("pagecreate", "#map-page", function() {    
     }
 });
 
+function calculteMyLocation() {
+    var points = [];
+
+    for (var i = 1; i < registeredBeacons.length; i++) {
+        var point = new Point(registeredBeacons[i].coordinate.x, registeredBeacons[i].coordinate.y, registeredBeacons[i].distance*20);
+        points.push(point);
+    };
+    var debug = registeredBeacons[1].major.toString() + ":" + registeredBeacons[1].distance.toString() + ", " +
+        registeredBeacons[2].major.toString() + ":" + registeredBeacons[2].distance.toString() + ", " +
+        registeredBeacons[3].major.toString() + ":" + registeredBeacons[3].distance.toString();
+
+    $('.console').text(debug);
+    console.log(debug);
+
+    var myLoc = calculate_Intersection(points[0], points[1], points[2]);
+    if (myLoc === 0) {
+        console.log('Cannot calculate my location !!!');
+    } else {
+        console.log('My location is ' + myLoc);
+        myLocation = {"x": myLoc[0], "y": myLoc[1]};
+    }
+}
+
 function refresh_rescue_map(page_selector, map_img) {
+    calculteMyLocation();
             $('.console').text("refresh - 1");
 
     if (map_img !== undefined) {
@@ -119,49 +149,47 @@ function refresh_rescue_map(page_selector, map_img) {
     }
             $('.console').text("refresh - 3");
 
-    var abs_coordinate = {
-        "x": 800,
-        "y": 600
+    var all = getAllDetails();
+    var fireFighter = [];
+    var emergency = [];
+    var people = [];
+
+    for (var i = 0; i < all.length; i++) {
+        coOrdinate = all[i].CoOrdinate.split(",");
+        coOrdinationX = parseInt(coOrdinate[0]);
+        coOrdinationY = parseInt(coOrdinate[1]);
+        // coOrdinationX = (parseInt(coOrdinate[0])*80 + Math.random()*20)*abs_coordinate.x/100;
+        // coOrdinationY = (parseInt(coOrdinate[1])*80 + Math.random()*20)*abs_coordinate.y/100;
+        console.log(coOrdinationX, " ", coOrdinationY);
+        if (all[i].FireFighter == 'yes') {
+            fireFighter.push({"x": coOrdinationX, "y": coOrdinationY});
+        } else if (all[i].Emergency == 'yes') {
+            emergency.push({"x": coOrdinationX, "y": coOrdinationY});
+        } else {
+            people.push({"x": coOrdinationX, "y": coOrdinationY});
+        }
     };
-    var firemen = [{
-        "x": 50,
-        "y": 500
-    }, {
-        "x": 150,
-        "y": 450
-    }, {
-        "x": 250,
-        "y": 400
-    }, {
-        "x": 350,
-        "y": 350
-    }, {
-        "x": 450,
-        "y": 450
-    }, {
-        "x": 650,
-        "y": 350
-    }, {
-        "x": 750,
-        "y": 250
-    }, {
-        "x": 550,
-        "y": 150
-    }];
+
+    fireFighter.push({"x": 30, "y": 60});
+    emergency.push({"x": 30, "y": 80});
+    people.push({"x": 45, "y": 90});
 
     var canvas1 = page_selector.find('.coveringCanvas')[0];
     var ctx1 = canvas1.getContext('2d');
 
     ctx1.clearRect(0, 0, canvas1.width, canvas1.height);
-    drawDiamonds(ctx1, firemen, abs_coordinate, {"width": canvas1.width, "height": canvas1.height});
+    drawDiamonds(ctx1, fireFighter, abs_coordinate, {"width": canvas1.width, "height": canvas1.height}, "#FFBF00");
+    drawDiamonds(ctx1, emergency, abs_coordinate, {"width": canvas1.width, "height": canvas1.height}, "#FF0000");
+    drawDiamonds(ctx1, people, abs_coordinate, {"width": canvas1.width, "height": canvas1.height}, "#0000FF");
+    // drawDiamonds(ctx1, [myLocation], abs_coordinate, {"width": canvas1.width, "height": canvas1.height}, "#00BFFF");
 
-    function drawDiamonds(ctx, xydata, abs_coordinate, adjusted_map_coordinate) {
+    function drawDiamonds(ctx, xydata, abs_coordinate, adjusted_map_coordinate, fillStyle) {
         // Overlayed Map ...
         // Layer1: Map Image
         // Layer2: My location
         // Layer3: ...
         // 
-        ctx.fillStyle = "#FFBF00";
+        ctx.fillStyle = fillStyle;
         for (var i = 0; i < xydata.length; i++) {
             var screen_x = (xydata[i]["x"] / abs_coordinate.x) * adjusted_map_coordinate.width;
             var screen_y = (xydata[i]["y"] / abs_coordinate.x) * adjusted_map_coordinate.height;
@@ -185,34 +213,6 @@ function refresh_rescue_map(page_selector, map_img) {
 }
 
 $(document).on("pagecreate", "#page-rescueme", function() {
-    // Pinch-zoom is not working with canvas overlay !!!
-    // 
-    // (function() {
-    //     var $section = $('#rescueme-map-section');
-    //     var $panzoom = $section.find('.panzoom').panzoom({
-    //         startTransform: 'scale(2)',
-    //         increment: 0.3,
-    //         minScale: 1
-    //     }).panzoom("zoom", 1.5, {
-    //         silent: true
-    //     });
-
-    //     $panzoom.parent().dblclick(function(event) {
-    //         $panzoom.panzoom('reset');
-    //     });
-
-    //     $panzoom.parent().on('mousewheel.focal', function(e) {
-    //         e.preventDefault();
-    //         var delta = e.delta || e.originalEvent.wheelDelta;
-    //         var zoomOut = delta ? delta < 0 : e.originalEvent.deltaY > 0;
-    //         $panzoom.panzoom('zoom', zoomOut, {
-    //             increment: 0.1,
-    //             animate: false,
-    //             focal: e
-    //         });
-    //     });
-    // })();
-
     refresh_rescue_map($("#page-rescueme"));
 });
 
@@ -227,23 +227,13 @@ var getRegisteredBeacon = function(beacon) {
     return None;
 }
 
-var registeredBeacons = [
-    {"major": -1, "minor": -1, "found": true, "distance": Infinity, "map": "img/mapnomarker.png"},
-    {"major": 27806, "minor": 6285, "found": false, "distance": 0, "map": "img/map_pos2.png"}, 
-    {"major": 7403, "minor": 18272, "found": false, "distance": 0, "map": "img/map_edit.png"},
-    {"major": 35318, "minor": 40305, "found": false, "distance": 0, "map": "img/map_pos3.png"}];
-
 var RegisteredBeaconManager = {
     getRegisteredBeacon: function(beacon) {
-            $('.console').text("666-1");
         for (var i = 1; i < registeredBeacons.length; i++) {
             if (registeredBeacons[i].major === beacon.major && registeredBeacons[i].minor === beacon.minor) {
-                $('.console').text("666-2");
-                $('.console').text(registeredBeacons[i].major.toString());
                 return registeredBeacons[i];
             }
         }
-            $('.console').text("666-3");
         return null;
     },
     getClosestBeacon: function() {
@@ -256,13 +246,10 @@ var RegisteredBeaconManager = {
         return closestBeacon;
     },
     added: function(beacon) {
-            $('.console').text("555");
         var registeredBeacon = this.getRegisteredBeacon(beacon);
         if (registeredBeacon !== null) {
-            $('.console').text(this.getClosestBeacon().map + this.getClosestBeacon().major.toString());
             registeredBeacon.found = true;
             registeredBeacon.distance = beacon.distance;
-            $('.console').text(this.getClosestBeacon().map + this.getClosestBeacon().major.toString());
             refresh_rescue_map($("#pagetwo"), this.getClosestBeacon().map);
         }
     },
@@ -270,7 +257,6 @@ var RegisteredBeaconManager = {
         var registeredBeacon = this.getRegisteredBeacon(beacon);
         if (registeredBeacon !== null) {
             registeredBeacon.distance = beacon.distance;
-            $('.console').text(this.getClosestBeacon().map + this.getClosestBeacon().major.toString());
             refresh_rescue_map($("#pagetwo"), this.getClosestBeacon().map);
         }
     },
@@ -279,7 +265,6 @@ var RegisteredBeaconManager = {
         if (registeredBeacon !== null) {
             registeredBeacon.found = false;
             registeredBeacon.distance = 0;
-            $('.console').text(this.getClosestBeacon().map + this.getClosestBeacon().major.toString());
             refresh_rescue_map($("#pagetwo"), this.getClosestBeacon().map);
         }
     }
@@ -287,24 +272,19 @@ var RegisteredBeaconManager = {
 };
 
 $(document).one("pagecreate", "#pagetwo", function() {
-            $('.console').text("111");
     refresh_rescue_map($("#pagetwo"));
         if (typeof window.EstimoteBeacons == 'undefined') return;
         if (!EstimoteBeacons) return;
 
-            $('.console').text("222");
     var beaconManager = new BeaconManager();
     beaconManager.startPulling(1000);
     beaconManager.on('updated', function(beacon) {
-            $('.console').text("333");
         RegisteredBeaconManager.updated(beacon);
     });
     beaconManager.on('added', function(beacon) {
-            $('.console').text("444");
         RegisteredBeaconManager.added(beacon);
     });
     beaconManager.on('removed', function(beacon) {
-            $('.console').text("555");
         RegisteredBeaconManager.removed(beacon);
     });
 });

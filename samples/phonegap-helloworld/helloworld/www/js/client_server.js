@@ -4,7 +4,7 @@ var pollForPersonDetails=setInterval(function(){getPersonDetailsPeriodically()},
 function sendPersonDetails() {
     $.ajax({
        type     : "POST",
-       url      : "http://localhost:8888/firefight/insert.php",
+       url      : "http://10.159.96.135:8888/firefight/insert.php",
        contentType : 'application/x-www-form-urlencoded',
        dataType : 'text',
        cache : false,
@@ -41,7 +41,7 @@ var personDetailsHandler = (function () {
 function getPersonDetailsPeriodically() {
     $.ajax({
            type     : "GET",
-           url      : "http://localhost:8888/firefight/display.php",
+           url      : "http://10.159.96.135:8888/firefight/display.php",
            dataType : 'json',
            cache : false,
            success  : function(msg){
