@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Request json test</title>
+    <script src="lib/jquery-mobile/js/jquery-1.11.0.min.js"></script>
+</head>
+
+<body>
+    <a href="#" id="getdata-button">Get JSON Data</a>
+    <div id="showdata"></div>
+
+    <script type="text/javascript">
+    $(document).ready(function() {    
+        $.ajaxSetup({
+            cache: false
+        });
+        $('#getdata-button').on('click', function() {
+            $.ajax({
+                type: "GET",
+                url: "http://10.159.190.112/firefight/display.php",
+                dataType: 'json',
+                cache: false,
+                success: function(json) {
+                	jQuery.parseJSON(json);
+                	var result;
+                	for (var i = 0; i < json.length; i++) {
+                		result += "PersonID[" + i + "]: " + json[i].PersonID;
+                		result += "CoOrdinate[" + i + "]: " + json[i].CoOrdinate;
+                		result += "StartTime[" + i + "]: " + json[i].StartTime;
+                		result += "EndTime[" + i + "]: " + json[i].EndTime;
+                		result += "FireFighter[" + i + "]: " + json[i].FireFighter;
+                		result += "Emergency[" + i + "]: " + json[i].Emergency;
+                	}
+                    $("#showdata").html(result);
+                },
+                error: function(request, status, error) {
+                    console.log(request.responseText);
+                    var result = request.responseText;
+                    $("#showdata").html("Error !!!! " + result);
+                }
+            });
+
+        });
+    });
+    </script>
+</body>
+
+</html>

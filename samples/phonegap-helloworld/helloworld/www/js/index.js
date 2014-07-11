@@ -116,7 +116,6 @@ $(document).on("pagecreate", "#map-page", function() {    
 // });
 
 function refresh_rescue_map() {
-
     var abs_coordinate = {"x": 800, "y": 600};
     var firemen = [
         {"x": 50, "y": 500},
