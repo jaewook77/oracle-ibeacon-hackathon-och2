@@ -16,9 +16,6 @@
     <script src="lib/jquery.mousewheel.min.js"></script>
 
     <script src="http://www.google.com/jsapi"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCD1-PNoiV9lfFj9OntZLJ7Sykl6LNFQpU"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA4ed4pp35bT70RLneUA7YC24unWknrg8E"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDCtWH1QMYTRZVT7sbmwNIrLyXDF4eWAxs"></script>
 
     <title>Hello World</title>
 
@@ -42,6 +39,20 @@
     background:white;
 }
 
+#usericon{
+
+        width:50%;
+        height:50%;
+}
+
+#ficon{
+
+        width:50%;
+        height:50%;
+
+}
+
+
         </style>
 </head>
 
@@ -53,21 +64,20 @@
         <!-- /header -->
 
         <div data-role="content" class="ui-content">
-            <ul data-role="listview" data-inset="true">
-<!--                 <li><a href="#foo" data-transition="slide">Google Map Test</a>
-                </li> -->
-                <li><a href="#pagetwo" data-transition="slide">Rescue Me - User</a>
-                </li>
-                <li><a href="#page-rescueme" data-transition="slide">Rescue Me - Firefighter</a>
-                </li>
-                <li><a href="#pagefour" data-transition="slide">iBeacon Test</a>
-                </li>
-            </ul>
-<!--             <form>
-                <label for="slider-0">Input slider:</label>
-                <input type="range" name="slider" id="slider-0" value="25" min="0" max="100" />
-            </form>
-            <a href="#" data-role="button" data-icon="star">Star button</a> -->
+
+<div class="ui-grid-a" style="height:50%">
+    <div class="ui-block-a" style="text-align:center;"><a href="#pagetwo" data-transition="slide"><img id="usericon" src="img/usericon.png" alt="map"></a></div>
+    <div class="ui-block-b" style="text-align:center;"><a href="#page-rescueme" data-transition="slide"><img id="ficon" src="img/firefightericon.png" alt="map"></a></div>
+</div><!-- /grid-a -->
+
+<!--                 <div style="text-align:center">
+                    <a href="#pagetwo" data-transition="slide"><img id="usericon" src="img/usericon.png" alt="map"></a> 
+
+                    <a href="#page-rescueme" data-transition="slide"><img id="ficon" src="img/firefightericon.png" alt="map"></a>
+                </div> -->
+<!-- <a href="#pagefour" data-transition="slide">iBeacon Test</a> -->
+
+            <!-- <a href="#" data-role="button" data-icon="star">Star button</a> --> 
 
         </div>
         <!-- /content -->
@@ -108,10 +118,19 @@
     </div>
 
     <div data-role="page" id="page-rescueme">
+<<<<<<< HEAD
+      
+=======
 
         <div data-role="header">
+>>>>>>> ec8bb1ba6118f182ae277d1b6405bf0b42a990c2
             <h1>Rescue Me</h1>
             <!-- move one step back in history -->
+			  <div data-role="header">
+        		<div data-role="panel" id="myPanel">
+  				<h2>Building 100</h2>
+			  </div>
+			   <a href="#myPanel" class="ui-btn ui-btn-inline">Open Panel</a>
             <div class="ui-grid-a ui-btn-left">
                 <a href="#" data-rel="back" data-icon="carat-l" data-iconpos="notext" class="ui-link ui-btn ui-icon-carat-l ui-btn-icon-notext ui-shadow ui-corner-all ui-btn-active" data-role="button" role="button" data-transition="slide" data-direction="reverse">Back</a>  
             </div>
@@ -140,8 +159,6 @@
                         <button class="ui-btn">Level 4</button>
                             <button class="ui-btn">Level 5</button>
                                 <button class="ui-btn">Level 6</button>
-
-
 
 
                          </div>
