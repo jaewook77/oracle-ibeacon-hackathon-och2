@@ -34,7 +34,7 @@ function getUiContentHeight() {
 }
 
 function getUiContentWidth() {
-    return $('[data-role="page"]').first().width();
+    return $('[data-role="page"]').first().width()*0.8;
 }
 
 function startRangingBeaconsInRegionCallback() {
@@ -140,8 +140,11 @@ function refresh_rescue_map() {
     canvas2.width = getUiContentWidth();
     canvas2.height = getUiContentHeight();
 
+canvas1.fillStyle   = 'white';
+canvas2.fillStyle   = 'white';
+
     var rescue_map_img = new Image();
-    rescue_map_img.src = "img/RWS_BLDG_FitnessCenter_1stFloor_Update.png";
+    rescue_map_img.src = "img/mapnomarkeripad.png";
     ctx1.clearRect(0, 0, canvas1.width, canvas1.height);
     rescue_map_img.onload = function() {
         ctx1.drawImage(rescue_map_img, 0, 0, canvas1.width, rescue_map_img.height * (canvas1.width / rescue_map_img.width));
