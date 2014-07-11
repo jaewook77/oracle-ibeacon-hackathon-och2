@@ -49,8 +49,53 @@ function startRangingBeaconsInRegionCallback() {
                 // beacon contains major, minor, rssi, macAddress, measuredPower, etc.
                 console.log('beacon:', beacon);
             }
+
+            var mindistance, minbeaconmaj, minbeaconmin;
+
+            for (var j = 0, l = beacons.length; j < l; j++) {
+
+                if(j===0){
+                    mindistance = beacon.distance;
+                    minbeaconmaj = beacon.major;
+                    minbeaconmin = beacon.minor;
+
+                }
+
+                if(beacon.distance < mindistance)
+                 {
+                    mindistance = beacon.distance;
+                    minbeaconmaj = beacon.major;
+                    minbeaconmin = beacon.minor;
+
+                 }   
+
+            }
+
+            if (minbeaconmaj == 27806 && minbeaconmin == 6285){
+
+                    $("#map").attr("src","img/map_pos2.png");
+
+           } else if (minbeaconmaj == 7403 && minbeaconmin == 18272){
+
+
+                    $("#map").attr("src","img/map_edit.png");
+
+
+           }else if (minbeaconmaj == 35318 && minbeaconmin == 40305){
+
+               $("#map").attr("src","img/map_pos3.png");
+
+
+          }     
+          else{
+
+             $("#map").attr("src","img/map_edit.png");
+          }
+                   
+           
+
         });
-    }, 3000);
+    }, 1000);
 }
 
 function formatDistance(meters) {
@@ -287,6 +332,7 @@ var app = {
         document.addEventListener('resume', app.onResume);
 
         EstimoteBeacons.startRangingBeaconsInRegion(startRangingBeaconsInRegionCallback);
+
     },
 
     // Update DOM on a Received Event
