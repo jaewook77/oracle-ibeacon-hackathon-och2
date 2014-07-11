@@ -17,6 +17,13 @@
  * under the License.
  */
 var myInterval;
+var fireFighterView = false;
+function setFireFighterView() {
+    fireFighterView = true;
+}
+function unsetFireFighterView() {
+    fireFighterView = false;
+}
 
 var registeredBeacons = [
     {"major": -1, "minor": -1, "found": true, "distance": Infinity, "map": "img/mapnomarker.png"},
@@ -28,6 +35,18 @@ var abs_coordinate = {"x": 120, "y": 100};
 var myLocation = {"x": 25, "y": 50};
 
 var showOnlyEmergency = false;
+
+function setShowOnlyEmergency() {
+    console.log('setShowOnlyEmergency');
+    showOnlyEmergency = true;
+    refresh_rescue_map($("#page-rescueme"));
+}
+
+function unsetShowOnlyEmergency() {
+    console.log('unsetShowOnlyEmergency');
+    showOnlyEmergency = false;
+    refresh_rescue_map($("#page-rescueme"));
+}
 
 function getUiContentHeight() {
     var screen = $.mobile.getScreenHeight();
@@ -156,8 +175,8 @@ function refresh_rescue_map(page_selector, map_img) {
 
     for (var i = 0; i < all.length; i++) {
         coOrdinate = all[i].CoOrdinate.split(",");
-        coOrdinationX = parseInt(coOrdinate[0]);
-        coOrdinationY = parseInt(coOrdinate[1]);
+        coOrdinationX = parseInt(coOrdinate[0]) + Math.floor((Math.random() * 5) + 5);
+        coOrdinationY = parseInt(coOrdinate[1]) + Math.floor((Math.random() * 5) + 5);
         // coOrdinationX = (parseInt(coOrdinate[0])*80 + Math.random()*20)*abs_coordinate.x/100;
         // coOrdinationY = (parseInt(coOrdinate[1])*80 + Math.random()*20)*abs_coordinate.y/100;
         console.log(coOrdinationX, " ", coOrdinationY);
@@ -170,17 +189,22 @@ function refresh_rescue_map(page_selector, map_img) {
         }
     };
 
-    fireFighter.push({"x": 30, "y": 60});
-    emergency.push({"x": 30, "y": 80});
-    people.push({"x": 45, "y": 90});
+    // fireFighter.push({"x": 30, "y": 60});
+    // emergency.push({"x": 30, "y": 80});
+    // people.push({"x": 45, "y": 90});
 
     var canvas1 = page_selector.find('.coveringCanvas')[0];
     var ctx1 = canvas1.getContext('2d');
 
     ctx1.clearRect(0, 0, canvas1.width, canvas1.height);
-    drawDiamonds(ctx1, fireFighter, abs_coordinate, {"width": canvas1.width, "height": canvas1.height}, "#FFBF00");
-    drawDiamonds(ctx1, emergency, abs_coordinate, {"width": canvas1.width, "height": canvas1.height}, "#FF0000");
-    drawDiamonds(ctx1, people, abs_coordinate, {"width": canvas1.width, "height": canvas1.height}, "#0000FF");
+
+    if (fireFighterView) {
+        drawDiamonds(ctx1, fireFighter, abs_coordinate, {"width": canvas1.width, "height": canvas1.height}, "#FFBF00");
+        drawDiamonds(ctx1, emergency, abs_coordinate, {"width": canvas1.width, "height": canvas1.height}, "#FF0000");
+        if (showOnlyEmergency == false) {
+            drawDiamonds(ctx1, people, abs_coordinate, {"width": canvas1.width, "height": canvas1.height}, "#0000FF");
+        }
+    }
     // drawDiamonds(ctx1, [myLocation], abs_coordinate, {"width": canvas1.width, "height": canvas1.height}, "#00BFFF");
 
     function drawDiamonds(ctx, xydata, abs_coordinate, adjusted_map_coordinate, fillStyle) {
@@ -227,6 +251,12 @@ var getRegisteredBeacon = function(beacon) {
     return None;
 }
 
+var emergency = 'no';
+function setEmergency() {
+    console.log('setEmergency');
+    emergency = 'yes';
+}
+
 var RegisteredBeaconManager = {
     getRegisteredBeacon: function(beacon) {
         for (var i = 1; i < registeredBeacons.length; i++) {
@@ -250,6 +280,7 @@ var RegisteredBeaconManager = {
         if (registeredBeacon !== null) {
             registeredBeacon.found = true;
             registeredBeacon.distance = beacon.distance;
+            sendPersonDetails(registeredBeacon.major.toString()+"/"+registeredBeacon.minor.toString(), emergency);
             refresh_rescue_map($("#pagetwo"), this.getClosestBeacon().map);
         }
     },
@@ -257,6 +288,7 @@ var RegisteredBeaconManager = {
         var registeredBeacon = this.getRegisteredBeacon(beacon);
         if (registeredBeacon !== null) {
             registeredBeacon.distance = beacon.distance;
+            sendPersonDetails(registeredBeacon.major.toString()+"/"+registeredBeacon.minor.toString(), emergency);
             refresh_rescue_map($("#pagetwo"), this.getClosestBeacon().map);
         }
     },

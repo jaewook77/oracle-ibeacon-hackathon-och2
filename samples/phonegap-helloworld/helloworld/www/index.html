@@ -35,12 +35,12 @@
 
             <div class="ui-grid-a" style="height:50%">
                 <div class="ui-block-a" style="text-align:center;">
-                    <a href="#pagetwo" data-transition="slide">
+                    <a href="#pagetwo" data-transition="slide" onclick="unsetFireFighterView();">
                         <img id="usericon" src="img/usericon.png" alt="map">
                     </a>
                 </div>
                 <div class="ui-block-b" style="text-align:center;">
-                    <a href="#page-rescueme" data-transition="slide">
+                    <a href="#page-rescueme" data-transition="slide" onclick="setFireFighterView();">
                         <img id="ficon" src="img/firefightericon.png" alt="map">
                     </a>
                 </div>
@@ -80,9 +80,9 @@
 
         <div data-role="footer" data-position="fixed" style="text-align:center;" data-theme="a">
             <a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-navigation ui-btn-icon-left ui-nodisc-icon ui-alt-icon">Exit</a>
-            <a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-phone ui-btn-icon-left ui-nodisc-icon ui-alt-icon" id="emergency_btn">Emergency</a>
-            <div class="console">debug message</div>
-        </div>
+            <a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-phone ui-btn-icon-left ui-nodisc-icon ui-alt-icon" id="emergency_btn" onclick="setEmergency();">Emergency</a>
+<!--             <div class="console">debug message</div>
+ -->        </div>
     </div>
 
     <div data-role="page" id="page-rescueme" ui-content-width-ratio='0.8'>
@@ -128,8 +128,8 @@
         </div>
 
         <div data-role="footer" data-position="fixed" style="text-align:center;" data-theme="a">
-            <a href="#" class=" fbut ui-btn ui-corner-all ui-shadow ui-icon-navigation ui-btn-icon-left ui-nodisc-icon ui-alt-icon">Show All</a>
-             <a href="#" class="fbut ui-btn ui-corner-all ui-shadow ui-icon-alert ui-btn-icon-left ui-nodisc-icon ui-alt-icon">Show Only Emergencies</a>
+            <a href="#" class=" fbut ui-btn ui-corner-all ui-shadow ui-icon-navigation ui-btn-icon-left ui-nodisc-icon ui-alt-icon" id="show_all" onclick="unsetShowOnlyEmergency();">Show All</a>
+             <a href="#" class="fbut ui-btn ui-corner-all ui-shadow ui-icon-alert ui-btn-icon-left ui-nodisc-icon ui-alt-icon" id="show_only_emergency" onclick="setShowOnlyEmergency();">Show Only Emergencies</a>
         </div>
     </div>
 
@@ -156,6 +156,12 @@
     <script type="text/javascript" src="js/index.js"></script>
     <script type="text/javascript">
     app.initialize();
+    // $('#show_only_emergency').on("click", function(event) {
+    //     showOnlyEmergency = true;
+    // });
+    // $('#show_all').on("click", function(event) {
+    //     showOnlyEmergency = false;
+    // });
     </script>
 </body>
 
