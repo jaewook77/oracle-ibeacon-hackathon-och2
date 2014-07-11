@@ -20,82 +20,35 @@ var myInterval;
 
 function getUiContentHeight() {
     var screen = $.mobile.getScreenHeight();
-
     var header = $(".ui-header").hasClass("ui-header-fixed") ? $(".ui-header").outerHeight() - 1 : $(".ui-header").outerHeight();
-
     var footer = $(".ui-footer").hasClass("ui-footer-fixed") ? $(".ui-footer").outerHeight() - 1 : $(".ui-footer").outerHeight();
 
     /* content div has padding of 1em = 16px (32px top+bottom). This step
        can be skipped by subtracting 32px from content var directly. */
     var contentCurrent = $(".ui-content").outerHeight() - $(".ui-content").height();
-
     var content = screen - header - footer - contentCurrent;
     return content;
 }
 
 function getUiContentWidth() {
-    return $('[data-role="page"]').first().width() * 0.8;
+
+    return $('[data-role="page"]').first().width();
 }
 
 function startRangingBeaconsInRegionCallback() {
-    console.log('Start ranging beacons...');
-    var changing = 0;
-    // Every now and then get the list of beacons in range
-    myInterval = setInterval(function() {
-        EstimoteBeacons.getBeacons(function(beacons) {
-            $('#emergency_btn').text('changing: ' + str(changing++));
+  console.log('Start ranging beacons...');
 
-            console.log('Getting beacons...');
-            for (var i = 0, l = beacons.length; i < l; i++) {
-                var beacon = beacons[i];
-                // beacon contains major, minor, rssi, macAddress, measuredPower, etc.
-                console.log('beacon:', beacon);
-            }
-
-            var mindistance, minbeaconmaj, minbeaconmin;
-
-            for (var j = 0, l = beacons.length; j < l; j++) {
-
-                if (j === 0) {
-                    mindistance = beacon.distance;
-                    minbeaconmaj = beacon.major;
-                    minbeaconmin = beacon.minor;
-
-                }
-
-                if (beacon.distance < mindistance) {
-                    mindistance = beacon.distance;
-                    minbeaconmaj = beacon.major;
-                    minbeaconmin = beacon.minor;
-
-                }
-
-            }
-
-            if (minbeaconmaj == 27806 && minbeaconmin == 6285) {
-
-                $("#map").attr("src", "img/map_pos2.png");
-
-            } else if (minbeaconmaj == 7403 && minbeaconmin == 18272) {
-
-
-                $("#map").attr("src", "img/map_edit.png");
-
-
-            } else if (minbeaconmaj == 35318 && minbeaconmin == 40305) {
-
-                $("#map").attr("src", "img/map_pos3.png");
-
-
-            } else {
-
-                $("#map").attr("src", "img/map_edit.png");
-            }
-
-
-
-        });
-    }, 1000);
+  // Every now and then get the list of beacons in range
+  myInterval = setInterval(function() {
+    EstimoteBeacons.getBeacons(function(beacons) {
+      console.log('Getting beacons...');
+      for(var i = 0, l = beacons.length; i < l; i++) {
+        var beacon = beacons[i];
+        // beacon contains major, minor, rssi, macAddress, measuredPower, etc.
+        console.log('beacon:', beacon);
+      }
+    });
+  }, 3000);
 }
 
 function formatDistance(meters) {
@@ -157,10 +110,15 @@ $(document).on("pagecreate", "#map-page", function() {    
     }
 });
 
-// $( document ).on( "pagecreate", "#pagetwo", function() {
-// });
+function refresh_rescue_map(page_selector, map_img) {
+            $('.console').text("refresh - 1");
 
-function refresh_rescue_map(map_img) {
+    if (map_img !== undefined) {
+            $('.console').text("refresh - 2");
+        page_selector.find('.coveredImage').first().attr("src",map_img);
+    }
+            $('.console').text("refresh - 3");
+
     var abs_coordinate = {
         "x": 800,
         "y": 600
@@ -191,33 +149,13 @@ function refresh_rescue_map(map_img) {
         "y": 150
     }];
 
-    var canvas1 = $('#rescue-map-canvas-layer1')[0];
-    var canvas2 = $('#rescue-map-canvas-layer2')[0];
-    var ctx1 = $('#rescue-map-canvas-layer1')[0].getContext('2d');
-    var ctx2 = $('#rescue-map-canvas-layer2')[0].getContext('2d');
-
-    // ...then set the internal size to match
-    canvas1.width = getUiContentWidth();
-    canvas1.height = getUiContentHeight();
-    canvas2.width = getUiContentWidth();
-    canvas2.height = getUiContentHeight();
-
-    canvas1.fillStyle = 'white';
-    canvas2.fillStyle = 'white';
-
-    var rescue_map_img = new Image();
-    if (map_img) {
-        rescue_map_img.src = map_img;
-    } else {
-        rescue_map_img.src = "img/mapnomarkeripad.png";
-    }
+    var canvas1 = page_selector.find('.coveringCanvas')[0];
+    var ctx1 = canvas1.getContext('2d');
 
     ctx1.clearRect(0, 0, canvas1.width, canvas1.height);
-    rescue_map_img.onload = function() {
-        ctx1.drawImage(rescue_map_img, 0, 0, canvas1.width, rescue_map_img.height * (canvas1.width / rescue_map_img.width));
-    };
+    drawDiamonds(ctx1, firemen, abs_coordinate, {"width": canvas1.width, "height": canvas1.height});
 
-    function drawDiamonds(ctx, xydata, abs_coordinate) {
+    function drawDiamonds(ctx, xydata, abs_coordinate, adjusted_map_coordinate) {
         // Overlayed Map ...
         // Layer1: Map Image
         // Layer2: My location
@@ -225,8 +163,8 @@ function refresh_rescue_map(map_img) {
         // 
         ctx.fillStyle = "#FFBF00";
         for (var i = 0; i < xydata.length; i++) {
-            var screen_x = (xydata[i]["x"] / abs_coordinate.x) * ctx.canvas.width;
-            var screen_y = (xydata[i]["y"] / abs_coordinate.x) * ctx.canvas.width;
+            var screen_x = (xydata[i]["x"] / abs_coordinate.x) * adjusted_map_coordinate.width;
+            var screen_y = (xydata[i]["y"] / abs_coordinate.x) * adjusted_map_coordinate.height;
             // ctx.fillRect(screen_x, screen_y, 10, 10);
             (function star(ctx, x, y, r, p, m) {
                 ctx.save();
@@ -244,17 +182,6 @@ function refresh_rescue_map(map_img) {
             })(ctx, screen_x, screen_y, 7, 5, 0.5);
         };
     };
-
-    ctx2.clearRect(0, 0, canvas2.width, canvas2.height);
-    drawDiamonds(ctx2, firemen, abs_coordinate);
-
-    // ctx2.fillStyle = "#FF0000";
-    // ctx2.save();
-    // ctx2.translate(200, 200);
-    // ctx2.rotate(Math.PI / 4);
-    // ctx2.fillRect(-5, -5, 10, 10);
-    // ctx2.restore();
-
 }
 
 $(document).on("pagecreate", "#page-rescueme", function() {
@@ -286,52 +213,136 @@ $(document).on("pagecreate", "#page-rescueme", function() {
     //     });
     // })();
 
-    refresh_rescue_map();
+    refresh_rescue_map($("#page-rescueme"));
 });
 
 
 var registeredBeacon = [{"major": 27806, "minor": 6285}, {"major": 7403, "minor": 18272}, {"major": 35318, "minor": 40305}];
-var isRegisteredBeacon = function(beacon) {
+var getRegisteredBeacon = function(beacon) {
     for (var i = 0; i < registeredBeacon.length; i++) {
         if (registeredBeacon[i].major == beacon.major && registeredBeacon[i].minor == beacon.minor) {
-            return true;
+            return i;
         }
     };
-    return false;
+    return None;
 }
 
-// $(document).on("pagecreate", "#pagetwo", function() {
-//     var beaconManager = new BeaconManager();
-//     var beaconsList = document.getElementById('beacons');
-//     beaconManager.startPulling(1000);
-//     beaconManager.on('updated', function(beacon) {
-//         if (isRegisteredBeacon) {
+var registeredBeacons = [
+    {"major": -1, "minor": -1, "found": true, "distance": Infinity, "map": "img/mapnomarker.png"},
+    {"major": 27806, "minor": 6285, "found": false, "distance": 0, "map": "img/map_pos2.png"}, 
+    {"major": 7403, "minor": 18272, "found": false, "distance": 0, "map": "img/map_edit.png"},
+    {"major": 35318, "minor": 40305, "found": false, "distance": 0, "map": "img/map_pos3.png"}];
 
-//         }
-//     });
-//     beaconManager.on('added', function(beacon) {
-//     });
-//     beaconManager.on('removed', function(beacon) {
-//     });
+var RegisteredBeaconManager = {
+    getRegisteredBeacon: function(beacon) {
+            $('.console').text("666-1");
+        for (var i = 1; i < registeredBeacons.length; i++) {
+            if (registeredBeacons[i].major === beacon.major && registeredBeacons[i].minor === beacon.minor) {
+                $('.console').text("666-2");
+                $('.console').text(registeredBeacons[i].major.toString());
+                return registeredBeacons[i];
+            }
+        }
+            $('.console').text("666-3");
+        return null;
+    },
+    getClosestBeacon: function() {
+        var closestBeacon = registeredBeacons[0];
+        for (var i = 1; i < registeredBeacons.length; i++) {
+            if (registeredBeacons[i].found && registeredBeacons[i].distance < closestBeacon.distance) {
+                closestBeacon = registeredBeacons[i];
+            }
+        }
+        return closestBeacon;
+    },
+    added: function(beacon) {
+            $('.console').text("555");
+        var registeredBeacon = this.getRegisteredBeacon(beacon);
+        if (registeredBeacon !== null) {
+            $('.console').text(this.getClosestBeacon().map + this.getClosestBeacon().major.toString());
+            registeredBeacon.found = true;
+            registeredBeacon.distance = beacon.distance;
+            $('.console').text(this.getClosestBeacon().map + this.getClosestBeacon().major.toString());
+            refresh_rescue_map($("#pagetwo"), this.getClosestBeacon().map);
+        }
+    },
+    updated: function(beacon) {
+        var registeredBeacon = this.getRegisteredBeacon(beacon);
+        if (registeredBeacon !== null) {
+            registeredBeacon.distance = beacon.distance;
+            $('.console').text(this.getClosestBeacon().map + this.getClosestBeacon().major.toString());
+            refresh_rescue_map($("#pagetwo"), this.getClosestBeacon().map);
+        }
+    },
+    removed: function(beacon) {
+        var registeredBeacon = this.getRegisteredBeacon(beacon);
+        if (registeredBeacon !== null) {
+            registeredBeacon.found = false;
+            registeredBeacon.distance = 0;
+            $('.console').text(this.getClosestBeacon().map + this.getClosestBeacon().major.toString());
+            refresh_rescue_map($("#pagetwo"), this.getClosestBeacon().map);
+        }
+    }
 
+};
 
-//     if (minbeaconmaj == 27806 && minbeaconmin == 6285) {
-//         refresh_rescue_map("img/map_pos2.png");
-//         // $("#map").attr("src", "img/map_pos2.png");
-//     } else if (minbeaconmaj == 7403 && minbeaconmin == 18272) {
-//         refresh_rescue_map("img/map_edit.png");
-//         // $("#map").attr("src", "img/map_edit.png");
-//     } else if (minbeaconmaj == 35318 && minbeaconmin == 40305) {
-//         refresh_rescue_map("img/map_pos3.png");
-//         // $("#map").attr("src", "img/map_pos3.png");
-//     } else {
-//         refresh_rescue_map("img/map_edit.png");
-//         // $("#map").attr("src", "img/map_edit.png");
-//     }
+$(document).one("pagecreate", "#pagetwo", function() {
+            $('.console').text("111");
+    refresh_rescue_map($("#pagetwo"));
+        if (typeof window.EstimoteBeacons == 'undefined') return;
+        if (!EstimoteBeacons) return;
 
-// });
+            $('.console').text("222");
+    var beaconManager = new BeaconManager();
+    beaconManager.startPulling(1000);
+    beaconManager.on('updated', function(beacon) {
+            $('.console').text("333");
+        RegisteredBeaconManager.updated(beacon);
+    });
+    beaconManager.on('added', function(beacon) {
+            $('.console').text("444");
+        RegisteredBeaconManager.added(beacon);
+    });
+    beaconManager.on('removed', function(beacon) {
+            $('.console').text("555");
+        RegisteredBeaconManager.removed(beacon);
+    });
+});
+
+var initPanZoom = function() {
+    (function() {
+        var $panzoom = $('.panzoom').panzoom({
+            startTransform: 'scale(2)',
+            increment: 0.3,
+            minScale: 1
+        }).panzoom("zoom", 1.5, {
+            silent: true
+        });
+
+        $panzoom.parent().dblclick(function(event) {
+            $panzoom.panzoom('reset');
+        });
+
+        $panzoom.parent().on('mousewheel.focal', function(e) {
+            e.preventDefault();
+            var delta = e.delta || e.originalEvent.wheelDelta;
+            var zoomOut = delta ? delta < 0 : e.originalEvent.deltaY > 0;
+            $panzoom.panzoom('zoom', zoomOut, {
+                increment: 0.1,
+                animate: false,
+                focal: e
+            });
+        });
+    })();
+}
+
+$(document).on("pagecreate", "#pagetwo", function() {
+});
+
 
 $(document).on("pagecreate", "#pagefour", function() {
+        if (typeof window.EstimoteBeacons == 'undefined') return;
+        if (!EstimoteBeacons) return;
 
     var beaconManager = new BeaconManager();
     var beaconsList = document.getElementById('beacons');
@@ -411,6 +422,7 @@ var app = {
 
         var content = getUiContentHeight();
         $(".ui-content").height(content);
+        initPanZoom();
 
         console.log('Received Event: ' + id);
     },

@@ -12,52 +12,14 @@
 
     <script src="lib/jquery-mobile/js/jquery-1.11.0.min.js"></script>
     <script src="lib/jquery-mobile/js/jquery.mobile-1.4.0.min.js"></script>
+
     <script src="lib/jquery.panzoom.min.js"></script>
     <script src="lib/jquery.mousewheel.min.js"></script>
 
+<!--    
     <script src="http://www.google.com/jsapi"></script>
-    <script src="http://jsconsole.com/remote.js?A831B24B-E237-4E21-A96F-958331BAD6A5"></script>
-    <script type="text/javascript">
-                console.log('Started ....');
-    </script>
-
+-->
     <title>Hello World</title>
-
-
-        <style type="text/css">
-
-            #map {
-
-    width:90%; /* you can use % */
-    height: auto;
-
-    }
-
-    .ui-grid-a img {
-    width  : 100%;
-    height : auto;
-}
-
-.ui-bar-f{
-
-    background:white;
-}
-
-#usericon{
-
-        width:50%;
-        height:50%;
-}
-
-#ficon{
-
-        width:50%;
-        height:50%;
-
-}
-
-
-        </style>
 </head>
 
 <body>
@@ -65,34 +27,32 @@
         <div data-role="header">
             <h1>Hello World</h1>
         </div>
-        <!-- /header -->
 
         <div data-role="content" class="ui-content">
 
-<div class="ui-grid-a" style="height:50%">
-    <div class="ui-block-a" style="text-align:center;"><a href="#pagetwo" data-transition="slide"><img id="usericon" src="img/usericon.png" alt="map"></a></div>
-    <div class="ui-block-b" style="text-align:center;"><a href="#page-rescueme" data-transition="slide"><img id="ficon" src="img/firefightericon.png" alt="map"></a></div>
-</div><!-- /grid-a -->
-
-<!--                 <div style="text-align:center">
-                    <a href="#pagetwo" data-transition="slide"><img id="usericon" src="img/usericon.png" alt="map"></a> 
-
-                    <a href="#page-rescueme" data-transition="slide"><img id="ficon" src="img/firefightericon.png" alt="map"></a>
-                </div> -->
-<a href="#pagefour" data-transition="slide">iBeacon Test</a>
-
-            <!-- <a href="#" data-role="button" data-icon="star">Star button</a> --> 
-
+            <div class="ui-grid-a" style="height:50%">
+                <div class="ui-block-a" style="text-align:center;">
+                    <a href="#pagetwo" data-transition="slide">
+                        <img id="usericon" src="img/usericon.png" alt="map">
+                    </a>
+                </div>
+                <div class="ui-block-b" style="text-align:center;">
+                    <a href="#page-rescueme" data-transition="slide">
+                        <img id="ficon" src="img/firefightericon.png" alt="map">
+                    </a>
+                </div>
+            </div>
         </div>
         <!-- /content -->
 
         <div data-role="footer">
             <h4>My Footer</h4>
+            <a href="#pagefour" data-transition="slide">iBeacon Test</a>
         </div>
         <!-- /footer -->
     </div>
 
-<!--     <div data-role="page" id="map-page" data-url="map-page">
+    <!--     <div data-role="page" id="map-page" data-url="map-page">
         <div data-role="header">
             <h1>Page One</h1>
             <a href="#home" class="ui-btn-left" data-icon="home" data-transition="slide" data-direction="reverse">Home</a>
@@ -105,126 +65,77 @@
     <div data-role="page" id="pagetwo">
         <div data-role="header">
             <div class="ui-grid-a ui-btn-left">
-                <a href="#" data-rel="back" data-icon="carat-l" data-iconpos="notext" class="ui-link ui-btn ui-icon-carat-l ui-btn-icon-notext ui-shadow ui-corner-all ui-btn-active" data-role="button" role="button" data-transition="slide" data-direction="reverse">Back</a>  
+                <a href="#" data-rel="back" data-icon="carat-l" data-iconpos="notext" class="ui-link ui-btn ui-icon-carat-l ui-btn-icon-notext ui-shadow ui-corner-all ui-btn-active" data-role="button" role="button" data-transition="slide" data-direction="reverse">Back</a> 
             </div>
-         <h1>Rescue Me</h1>
+            <h1>Rescue Me</h1>
         </div>
         <div data-role="main" class="ui-content">
-            <img id="map" src="img/map_edit.png" alt="map">
+            <div class="outsideWrapper panzoom">
+                <div class="insideWrapper">
+                    <img src="img/map_edit.png" class="coveredImage">
+                    <canvas class="coveringCanvas"></canvas>
+                </div>
+            </div>
         </div>
 
-        <div data-role="footer" data-position="fixed" style="text-align:center;" data-theme="a">
-<a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-navigation ui-btn-icon-left ui-nodisc-icon ui-alt-icon">Exit</a>
-    <a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-phone ui-btn-icon-left ui-nodisc-icon ui-alt-icon" id="emergency_btn">Emergency</a>
-
+         <div data-role="footer" data-position="fixed" style="text-align:center;" data-theme="a">
+            <a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-navigation ui-btn-icon-left ui-nodisc-icon ui-alt-icon">Exit</a>
+            <a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-phone ui-btn-icon-left ui-nodisc-icon ui-alt-icon" id="emergency_btn">Emergency</a>
+            <div class="console">debug message</div>
         </div>
-
     </div>
 
-    <div data-role="page" id="page-rescueme">
+
+    <div data-role="page" id="page-rescueme" ui-content-width-ratio='0.8'>
 
         <div data-role="header">
 
             <h1>Rescue Me</h1>
 
             <div class="ui-grid-a ui-btn-left">
-                <a href="#" data-rel="back" data-icon="carat-l" data-iconpos="notext" class="ui-link ui-btn ui-icon-carat-l ui-btn-icon-notext ui-shadow ui-corner-all ui-btn-active" data-role="button" role="button" data-transition="slide" data-direction="reverse">Back</a>  
+                <a href="#" data-rel="back" data-icon="carat-l" data-iconpos="notext" class="ui-link ui-btn ui-icon-carat-l ui-btn-icon-notext ui-shadow ui-corner-all ui-btn-active" data-role="button" role="button" data-transition="slide" data-direction="reverse">Back</a> 
             </div>
-            <!-- show right-aligned multiple icons -->
             <div class="ui-grid-a ui-btn-right">
-                <!-- refresh -->
                 <a href="#" onclick="window.location.reload()" data-icon="refresh" data-iconpos="notext" class="ui-link ui-btn ui-icon-refresh ui-btn-icon-notext ui-shadow ui-corner-all ui-btn-active" data-role="button" role="button">Refresh</a> 
             </div>
         </div>
-        <div data-role="main" class="ui-content" id="page-rescueme-main" >
+    <div data-role="main" class="ui-content" id="page-rescueme-main">
 
-                <div class="ui-grid-a">
-                    <div class="ui-block-a" style="width:20%">
-                        <div class="ui-bar ui-bar-e" style="padding-left:0%;float:left;width: 100%"> 
+            <div class="ui-grid-a" style="height:100%">
+                <div class="ui-block-a" style="width:20%">
+                    <div class="ui-bar ui-bar-e" style="padding-left:0%;float:left;width: 100%">
 
+                        <div data-role="controlgroup" data-type="horizontal" data-mini="true" style="text-align:center">
+                            <a href="index.html" data-role="button" data-theme="b">Level</a>
+                            <a href="index.html" data-role="button">Building</a>
+                        </div>
 
-        <div data-role="controlgroup" data-type="horizontal" data-mini="true" style="text-align:center">
-            <a href="index.html" data-role="button" data-theme="b" >Level</a>
-            <a href="index.html" data-role="button" >Building</a>
-        </div>
-
-
-            <button class="ui-btn">Level 1</button>
-                <button class="ui-btn">Level 2</button>
-                    <button class="ui-btn">Level 3</button>
+                        <button class="ui-btn">Level 1</button>
+                        <button class="ui-btn">Level 2</button>
+                        <button class="ui-btn">Level 3</button>
                         <button class="ui-btn">Level 4</button>
-                            <button class="ui-btn">Level 5</button>
-                                <button class="ui-btn">Level 6</button>
+                        <button class="ui-btn">Level 5</button>
+                        <button class="ui-btn">Level 6</button>
 
-
-                         </div>
-                    </div>
-                    <div class="ui-block-b" style="width:80%" id="80section">
-                        <div class="ui-bar ui-bar-f" style=" z-index: 10;position: absolute;width: 80%;height:80%;padding-right: 10%">
-            
-            <section id="rescueme-map-section" >
-                <div class="panzoom-parent" style="position:relative; width:100%; height:100%">
-                    <div class="panzoom">
-                        <canvas id="rescue-map-canvas-layer1"
-                        style="z-index: 1;
-                        position:absolute;
-                        left:0px;
-                        top:0px;
-                        " height="300px" width="400">
-                        This text is displayed if your browser does not support HTML5 Canvas.
-                        </canvas>
-                        <canvas id="rescue-map-canvas-layer2"
-                        style="z-index: 2;
-                        position:absolute;
-                        left:0px;
-                        top:0px;
-                        " height="300px" width="400">
-                        This text is displayed if your browser does not support HTML5 Canvas.
-                        </canvas>
-                        <!--
-                         <img id="rescue_map_canvas" src="img/RWS_BLDG_FitnessCenter_1stFloor_Update.png" max-width="100%" max-height="100%" width="100%" height="100%"/>
-                        -->
                     </div>
                 </div>
-            </section>
-
-                        </div> 
+                <div class="ui-block-b" style="width:80%">
+                    <div class="outsideWrapper">
+                        <div class="insideWrapper">
+                            <img src="img/map_edit.png" class="coveredImage">
+                            <canvas class="coveringCanvas"></canvas>
+                        </div>
                     </div>
                 </div>
-
-
-
+            </div>
         </div>
 
-                <div data-role="footer" data-position="fixed" style="text-align:center;" data-theme="a">
-<a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-navigation ui-btn-icon-left ui-nodisc-icon ui-alt-icon">Show All</a>
-    <a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-phone ui-btn-icon-left ui-nodisc-icon ui-alt-icon">Show Only Emergencies</a>
+        <div data-role="footer" data-position="fixed" style="text-align:center;" data-theme="a">
+            <a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-navigation ui-btn-icon-left ui-nodisc-icon ui-alt-icon">Show All</a>
+            <a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-phone ui-btn-icon-left ui-nodisc-icon ui-alt-icon">Show Only Emergencies</a>
 
         </div>
-
     </div>
-
-    <div data-role="page" id="foo">
-            <div data-role="header">
-                <h1>Foo</h1>
-            </div>
-            <div data-role="content" >
-                <div class="ui-grid-a">
-                    <div class="ui-block-a" style="width:20%">
-                        <div class="ui-bar ui-bar-e" style="padding-left:10%;float:left;width: 100%"> This occupies 20% </div>
-                    </div>
-                    <div class="ui-block-b" style="width:80%">
-                        <div class="ui-bar ui-bar-b" style=" z-index: 10;position: absolute;width: 100%;padding-right: 10%">
-                            This occupies 80%
-                        </div> 
-                    </div>
-                </div>
-            </div>
-            <div data-role="footer">
-                <h4>Page Footer</h4>
-            </div>
-        </div>
-
 
     <div data-role="page" id="pagefour">
         <div data-role="header">
