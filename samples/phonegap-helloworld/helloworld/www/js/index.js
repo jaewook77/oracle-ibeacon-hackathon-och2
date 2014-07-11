@@ -34,15 +34,17 @@ function getUiContentHeight() {
 }
 
 function getUiContentWidth() {
-    return $('[data-role="page"]').first().width()*0.8;
+    return $('[data-role="page"]').first().width() * 0.8;
 }
 
 function startRangingBeaconsInRegionCallback() {
     console.log('Start ranging beacons...');
-
+    var changing = 0;
     // Every now and then get the list of beacons in range
     myInterval = setInterval(function() {
         EstimoteBeacons.getBeacons(function(beacons) {
+            $('#emergency_btn').text('changing: ' + str(changing++));
+
             console.log('Getting beacons...');
             for (var i = 0, l = beacons.length; i < l; i++) {
                 var beacon = beacons[i];
@@ -54,45 +56,43 @@ function startRangingBeaconsInRegionCallback() {
 
             for (var j = 0, l = beacons.length; j < l; j++) {
 
-                if(j===0){
+                if (j === 0) {
                     mindistance = beacon.distance;
                     minbeaconmaj = beacon.major;
                     minbeaconmin = beacon.minor;
 
                 }
 
-                if(beacon.distance < mindistance)
-                 {
+                if (beacon.distance < mindistance) {
                     mindistance = beacon.distance;
                     minbeaconmaj = beacon.major;
                     minbeaconmin = beacon.minor;
 
-                 }   
+                }
 
             }
 
-            if (minbeaconmaj == 27806 && minbeaconmin == 6285){
+            if (minbeaconmaj == 27806 && minbeaconmin == 6285) {
 
-                    $("#map").attr("src","img/map_pos2.png");
+                $("#map").attr("src", "img/map_pos2.png");
 
-           } else if (minbeaconmaj == 7403 && minbeaconmin == 18272){
-
-
-                    $("#map").attr("src","img/map_edit.png");
+            } else if (minbeaconmaj == 7403 && minbeaconmin == 18272) {
 
 
-           }else if (minbeaconmaj == 35318 && minbeaconmin == 40305){
-
-               $("#map").attr("src","img/map_pos3.png");
+                $("#map").attr("src", "img/map_edit.png");
 
 
-          }     
-          else{
+            } else if (minbeaconmaj == 35318 && minbeaconmin == 40305) {
 
-             $("#map").attr("src","img/map_edit.png");
-          }
-                   
-           
+                $("#map").attr("src", "img/map_pos3.png");
+
+
+            } else {
+
+                $("#map").attr("src", "img/map_edit.png");
+            }
+
+
 
         });
     }, 1000);
@@ -160,18 +160,36 @@ $(document).on("pagecreate", "#map-page", function() {    
 // $( document ).on( "pagecreate", "#pagetwo", function() {
 // });
 
-function refresh_rescue_map() {
-    var abs_coordinate = {"x": 800, "y": 600};
-    var firemen = [
-        {"x": 50, "y": 500},
-        {"x": 150, "y": 450},
-        {"x": 250, "y": 400},
-        {"x": 350, "y": 350},
-        {"x": 450, "y": 450},
-        {"x": 650, "y": 350},
-        {"x": 750, "y": 250},
-        {"x": 550, "y": 150}
-        ];
+function refresh_rescue_map(map_img) {
+    var abs_coordinate = {
+        "x": 800,
+        "y": 600
+    };
+    var firemen = [{
+        "x": 50,
+        "y": 500
+    }, {
+        "x": 150,
+        "y": 450
+    }, {
+        "x": 250,
+        "y": 400
+    }, {
+        "x": 350,
+        "y": 350
+    }, {
+        "x": 450,
+        "y": 450
+    }, {
+        "x": 650,
+        "y": 350
+    }, {
+        "x": 750,
+        "y": 250
+    }, {
+        "x": 550,
+        "y": 150
+    }];
 
     var canvas1 = $('#rescue-map-canvas-layer1')[0];
     var canvas2 = $('#rescue-map-canvas-layer2')[0];
@@ -184,45 +202,48 @@ function refresh_rescue_map() {
     canvas2.width = getUiContentWidth();
     canvas2.height = getUiContentHeight();
 
-canvas1.fillStyle   = 'white';
-canvas2.fillStyle   = 'white';
+    canvas1.fillStyle = 'white';
+    canvas2.fillStyle = 'white';
 
     var rescue_map_img = new Image();
-    rescue_map_img.src = "img/mapnomarkeripad.png";
+    if (map_img) {
+        rescue_map_img.src = map_img;
+    } else {
+        rescue_map_img.src = "img/mapnomarkeripad.png";
+    }
+
     ctx1.clearRect(0, 0, canvas1.width, canvas1.height);
     rescue_map_img.onload = function() {
         ctx1.drawImage(rescue_map_img, 0, 0, canvas1.width, rescue_map_img.height * (canvas1.width / rescue_map_img.width));
     };
 
-function drawDiamonds(ctx, xydata, abs_coordinate) {
-    // Overlayed Map ...
-    // Layer1: Map Image
-    // Layer2: My location
-    // Layer3: ...
-    // 
-    ctx.fillStyle = "#FFBF00";
-    for (var i = 0; i < xydata.length; i++) {
-        var screen_x = (xydata[i]["x"] / abs_coordinate.x) * ctx.canvas.width;
-        var screen_y = (xydata[i]["y"] / abs_coordinate.x) * ctx.canvas.width;
-        // ctx.fillRect(screen_x, screen_y, 10, 10);
-        (function star(ctx, x, y, r, p, m)
-            {
+    function drawDiamonds(ctx, xydata, abs_coordinate) {
+        // Overlayed Map ...
+        // Layer1: Map Image
+        // Layer2: My location
+        // Layer3: ...
+        // 
+        ctx.fillStyle = "#FFBF00";
+        for (var i = 0; i < xydata.length; i++) {
+            var screen_x = (xydata[i]["x"] / abs_coordinate.x) * ctx.canvas.width;
+            var screen_y = (xydata[i]["y"] / abs_coordinate.x) * ctx.canvas.width;
+            // ctx.fillRect(screen_x, screen_y, 10, 10);
+            (function star(ctx, x, y, r, p, m) {
                 ctx.save();
                 ctx.beginPath();
                 ctx.translate(x, y);
-                ctx.moveTo(0,0-r);
-                for (var i = 0; i < p; i++)
-                {
+                ctx.moveTo(0, 0 - r);
+                for (var i = 0; i < p; i++) {
                     ctx.rotate(Math.PI / p);
-                    ctx.lineTo(0, 0 - (r*m));
+                    ctx.lineTo(0, 0 - (r * m));
                     ctx.rotate(Math.PI / p);
                     ctx.lineTo(0, 0 - r);
                 }
                 ctx.fill();
                 ctx.restore();
             })(ctx, screen_x, screen_y, 7, 5, 0.5);
+        };
     };
-};
 
     ctx2.clearRect(0, 0, canvas2.width, canvas2.height);
     drawDiamonds(ctx2, firemen, abs_coordinate);
@@ -268,6 +289,48 @@ $(document).on("pagecreate", "#page-rescueme", function() {
     refresh_rescue_map();
 });
 
+
+var registeredBeacon = [{"major": 27806, "minor": 6285}, {"major": 7403, "minor": 18272}, {"major": 35318, "minor": 40305}];
+var isRegisteredBeacon = function(beacon) {
+    for (var i = 0; i < registeredBeacon.length; i++) {
+        if (registeredBeacon[i].major == beacon.major && registeredBeacon[i].minor == beacon.minor) {
+            return true;
+        }
+    };
+    return false;
+}
+
+// $(document).on("pagecreate", "#pagetwo", function() {
+//     var beaconManager = new BeaconManager();
+//     var beaconsList = document.getElementById('beacons');
+//     beaconManager.startPulling(1000);
+//     beaconManager.on('updated', function(beacon) {
+//         if (isRegisteredBeacon) {
+
+//         }
+//     });
+//     beaconManager.on('added', function(beacon) {
+//     });
+//     beaconManager.on('removed', function(beacon) {
+//     });
+
+
+//     if (minbeaconmaj == 27806 && minbeaconmin == 6285) {
+//         refresh_rescue_map("img/map_pos2.png");
+//         // $("#map").attr("src", "img/map_pos2.png");
+//     } else if (minbeaconmaj == 7403 && minbeaconmin == 18272) {
+//         refresh_rescue_map("img/map_edit.png");
+//         // $("#map").attr("src", "img/map_edit.png");
+//     } else if (minbeaconmaj == 35318 && minbeaconmin == 40305) {
+//         refresh_rescue_map("img/map_pos3.png");
+//         // $("#map").attr("src", "img/map_pos3.png");
+//     } else {
+//         refresh_rescue_map("img/map_edit.png");
+//         // $("#map").attr("src", "img/map_edit.png");
+//     }
+
+// });
+
 $(document).on("pagecreate", "#pagefour", function() {
 
     var beaconManager = new BeaconManager();
@@ -302,6 +365,7 @@ $(document).on("pagecreate", "#pagefour", function() {
 var app = {
     // Application Constructor
     initialize: function() {
+        console.log('Initialize ....');
         this.bindEvents();
     },
 
@@ -320,6 +384,7 @@ var app = {
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
+        console.log('onDeviceReady ....');
         this.receivedEvent('deviceready');
 
         document.removeEventListener('deviceready', app.onDeviceReady);
@@ -330,6 +395,7 @@ var app = {
         document.addEventListener('pause', app.onPause);
         document.addEventListener('resume', app.onResume);
 
+        console.log('Calling EstimoteBeacons.startRangingBeaconsInRegion ....');
         EstimoteBeacons.startRangingBeaconsInRegion(startRangingBeaconsInRegionCallback);
 
     },
