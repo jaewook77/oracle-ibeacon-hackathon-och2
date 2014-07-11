@@ -8,7 +8,9 @@
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, target-densitydpi=device-dpi" />
 
     <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/font.css" />
     <link rel="stylesheet" type="text/css" href="lib/jquery-mobile/css/jquery.mobile-1.4.0.min.css" />
+
 
     <script src="lib/jquery-mobile/js/jquery-1.11.0.min.js"></script>
     <script src="lib/jquery-mobile/js/jquery.mobile-1.4.0.min.js"></script>
@@ -16,7 +18,7 @@
     <script src="lib/jquery.panzoom.min.js"></script>
     <script src="lib/jquery.mousewheel.min.js"></script>
 
-<!--    
+    <!--    
     <script src="http://www.google.com/jsapi"></script>
 -->
     <title>Hello World</title>
@@ -24,8 +26,9 @@
 
 <body>
     <div data-role="page" id="home">
-        <div data-role="header">
-            <h1>Hello World</h1>
+        <div data-role="header" data-theme="b">
+            <h1>
+                <img id="logo" src="img/icon.png" alt="logo" style="width:30px;padding-right:10px;">Rescue Me</h1>
         </div>
 
         <div data-role="content" class="ui-content">
@@ -43,16 +46,11 @@
                 </div>
             </div>
         </div>
-        <!-- /content -->
-
-        <div data-role="footer">
-            <h4>My Footer</h4>
-            <a href="#pagefour" data-transition="slide">iBeacon Test</a>
-        </div>
-        <!-- /footer -->
+        <a href="#pagefour" data-transition="slide">iBeacon Test</a>
     </div>
 
-    <!--     <div data-role="page" id="map-page" data-url="map-page">
+    <!-- 
+        <div data-role="page" id="map-page" data-url="map-page">
         <div data-role="header">
             <h1>Page One</h1>
             <a href="#home" class="ui-btn-left" data-icon="home" data-transition="slide" data-direction="reverse">Home</a>
@@ -60,14 +58,16 @@
         </div>
         <div role="main" class="ui-content" id="map-canvas">
         </div>
-    </div> -->
+    </div> 
+    -->
 
     <div data-role="page" id="pagetwo">
-        <div data-role="header">
+        <div data-role="header" data-theme="b">
             <div class="ui-grid-a ui-btn-left">
                 <a href="#" data-rel="back" data-icon="carat-l" data-iconpos="notext" class="ui-link ui-btn ui-icon-carat-l ui-btn-icon-notext ui-shadow ui-corner-all ui-btn-active" data-role="button" role="button" data-transition="slide" data-direction="reverse">Back</a> 
             </div>
-            <h1>Rescue Me</h1>
+            <h1>
+                <img id="logo" src="img/icon.png" alt="logo" style="width:30px;padding-right:10px;">Rescue Me</h1>
         </div>
         <div data-role="main" class="ui-content">
             <div class="outsideWrapper panzoom">
@@ -78,19 +78,17 @@
             </div>
         </div>
 
-         <div data-role="footer" data-position="fixed" style="text-align:center;" data-theme="a">
+        <div data-role="footer" data-position="fixed" style="text-align:center;" data-theme="a">
             <a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-navigation ui-btn-icon-left ui-nodisc-icon ui-alt-icon">Exit</a>
             <a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-phone ui-btn-icon-left ui-nodisc-icon ui-alt-icon" id="emergency_btn">Emergency</a>
             <div class="console">debug message</div>
         </div>
     </div>
 
-
     <div data-role="page" id="page-rescueme" ui-content-width-ratio='0.8'>
-
-        <div data-role="header">
-
-            <h1>Rescue Me</h1>
+        <div data-role="header" data-theme="b">
+            <h1>
+                <img id="logo" src="img/icon.png" alt="logo" style="width:30px;padding-right:10px;">Rescue Me</h1>
 
             <div class="ui-grid-a ui-btn-left">
                 <a href="#" data-rel="back" data-icon="carat-l" data-iconpos="notext" class="ui-link ui-btn ui-icon-carat-l ui-btn-icon-notext ui-shadow ui-corner-all ui-btn-active" data-role="button" role="button" data-transition="slide" data-direction="reverse">Back</a> 
@@ -99,8 +97,7 @@
                 <a href="#" onclick="window.location.reload()" data-icon="refresh" data-iconpos="notext" class="ui-link ui-btn ui-icon-refresh ui-btn-icon-notext ui-shadow ui-corner-all ui-btn-active" data-role="button" role="button">Refresh</a> 
             </div>
         </div>
-    <div data-role="main" class="ui-content" id="page-rescueme-main">
-
+        <div data-role="main" class="ui-content" id="page-rescueme-main">
             <div class="ui-grid-a" style="height:100%">
                 <div class="ui-block-a" style="width:20%">
                     <div class="ui-bar ui-bar-e" style="padding-left:0%;float:left;width: 100%">
@@ -110,12 +107,12 @@
                             <a href="index.html" data-role="button">Building</a>
                         </div>
 
-                        <button class="ui-btn">Level 1</button>
-                        <button class="ui-btn">Level 2</button>
+                        <button class="ui-btn emer">Level 1</button>
+                        <button class="ui-btn emer">Level 2</button>
                         <button class="ui-btn">Level 3</button>
                         <button class="ui-btn">Level 4</button>
-                        <button class="ui-btn">Level 5</button>
-                        <button class="ui-btn">Level 6</button>
+                        <button class="ui-btn emer">Level 5</button>
+                        <button class="ui-btn ">Level 6</button>
 
                     </div>
                 </div>
@@ -131,9 +128,8 @@
         </div>
 
         <div data-role="footer" data-position="fixed" style="text-align:center;" data-theme="a">
-            <a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-navigation ui-btn-icon-left ui-nodisc-icon ui-alt-icon">Show All</a>
-            <a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-phone ui-btn-icon-left ui-nodisc-icon ui-alt-icon">Show Only Emergencies</a>
-
+            <a href="#" class=" fbut ui-btn ui-corner-all ui-shadow ui-icon-navigation ui-btn-icon-left ui-nodisc-icon ui-alt-icon">Show All</a>
+             <a href="#" class="fbut ui-btn ui-corner-all ui-shadow ui-icon-alert ui-btn-icon-left ui-nodisc-icon ui-alt-icon">Show Only Emergencies</a>
         </div>
     </div>
 
