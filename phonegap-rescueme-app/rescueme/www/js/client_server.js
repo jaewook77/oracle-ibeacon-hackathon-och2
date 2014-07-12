@@ -4,15 +4,16 @@ var pollForPersonDetails=setInterval(function(){getPersonDetailsPeriodically()},
 function sendPersonDetails(beaconId, emergency) {
     $.ajax({
        type     : "POST",
-       url      : "http://10.159.77.108:8888/firefight/insert.php",
+       url      : "http://10.159.239.84:8888/firefight/insert.php",
        contentType : 'application/x-www-form-urlencoded',
        dataType : 'text',
        cache : false,
-       data     : ({ PersonID:'2', BeaconID:beaconId, StartTime:12345, EndTime:12344, FireFighter:'no', Emergency:emergency  }) ,
+       data     : ({ PersonID:'2', BeaconID:beaconId, StartTime:23456, EndTime:23457, FireFighter:'no', Emergency:emergency  }) ,
        success  : function(msg){
-           // // console.log(msg);
+           console.log(msg);
        },
-       error : function(msg){ // console.log('Failed');
+       error : function(msg){ 
+        console.log('Failed');
      }
     });
 }
@@ -42,7 +43,7 @@ var personDetailsHandler = (function () {
 function getPersonDetailsPeriodically() {
     $.ajax({
            type     : "GET",
-           url      : "http://10.159.77.108:8888/firefight/display.php",
+           url      : "http://10.159.239.84:8888/firefight/display.php",
            dataType : 'json',
            cache : false,
            success  : function(msg){
@@ -57,13 +58,13 @@ function getPersonDetailsPeriodically() {
                 }
            },
            error : function(msg){
-               // console.log("error");
-               // console.log(msg);
+               console.log("error");
+               console.log(msg);
                if(msg.status === 200){
                     var arrayStr = msg.responseText;
                     var jsonObj = $.parseJSON(arrayStr);
                     var count = jsonObj.count;
-                    // console.log(count);
+                    console.log(count);
                     for(i=0; i < count; i++){
                         personDetailsHandler.setDetail( jsonObj[i] );
                     }
@@ -76,7 +77,7 @@ function getFireFighterOrEmergencyDetails() {
     var personDetailList = personDetailsHandler.getDetail();
     var returnList = [];
     if (personDetailList === undefined ) {
-        // console.log("personDetailList is undefined");
+        console.log("personDetailList is undefined");
         return;
     }
     var arrayLength = personDetailList.length;
@@ -99,7 +100,7 @@ function getFireFighterOrEmergencyDetails() {
 function getAllDetails() {
     var personDetailList = personDetailsHandler.getDetail();
     if (personDetailList === undefined ) {
-        // console.log("personDetailList is undefined");
+        console.log("personDetailList is undefined");
         return;
     }
     var arrayLength = personDetailList.length;

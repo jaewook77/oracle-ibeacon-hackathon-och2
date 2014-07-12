@@ -1,0 +1,30 @@
+<style type="text/css">
+.outsideWrapper {
+    border: 1px solid blue;
+}
+.insideWrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.coveredImage {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.coveringCanvas {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+</style>
+<div class="outsideWrapper">
+    <div class="insideWrapper">
+        <img src="img/map_edit.png" class="coveredImage">
+        <canvas class="coveringCanvas"></canvas>
+    </div>
+</div>
